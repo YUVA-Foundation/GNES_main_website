@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* colour */
+    --blue-shade: #334756;
+    --orange-shade: #FF4C29;
+    --text-color: #667580;
+    --footer-head-text: #015198;
+    --footer-background: #A9FFFA4F;
+
+    /* fonts */
+    --para-fonts: "Lato";
+    --headings: "Roboto";
+
+}
