@@ -18,7 +18,7 @@ p{
     font-family:'Lato', sans-serif ;
     color: var(--text-color);
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 h2{
@@ -43,9 +43,12 @@ h2{
 /* Hero-section */
 
 /* Statistic-section */
-#statistics{
+.stat-container{
     background-image: url(../Assets/Home/Statistic\ Background.png);
-    height: 113.8vh;
+    height: 100vh;
 
+}
+.stat p,h6{
+    color: #D4D4D8;
 }
 /* statistics-section */
