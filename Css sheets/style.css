@@ -13,8 +13,39 @@
     --footer-head-text: #015198;
     --footer-background: #A9FFFA4F;
 
-    /* fonts */
-    --para-fonts: "Lato";
-    --headings: "Roboto";
+}
+p{
+    font-family:'Lato', sans-serif ;
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+h2{
+    font-family: 'Roboto',sans-serif;
+    color: var(--orange-shade);
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.background-tint {
+    background-color: rgba(0, 0, 0, 0.5); /* Tint color */
+    background-blend-mode: multiply;
+}
+/* Global styling ends */
+
+
+/*Hero-section*/
+#hero-section{
+    background-image: url(../Assets/Home/Hero\ background.png);
+    height: 84.6vh;
+}
+/* Hero-section */
+
+/* Statistic-section */
+#statistics{
+    background-image: url(../Assets/Home/Statistic\ Background.png);
+    height: 113.8vh;
 
 }
+/* statistics-section */
