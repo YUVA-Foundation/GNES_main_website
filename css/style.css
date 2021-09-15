@@ -36,18 +36,16 @@ h2{
 
 
 /*Hero-section*/
-#hero-section{
-    background-image: url(../assets/home/hero_bg.png);
+/* .hero-section{
     height: 84.6vh;
-}
+} */
 /* Hero-section */
 
 /* Statistic-section */
-.stat-container{
-    background-image: url(../assets/home/statistic/Background.png);
+/* .stat-container{
     height: 100vh;
 
-}
+} */
 .stat p,h6{
     color: #D4D4D8;
 }
