@@ -46,7 +46,7 @@ h2{
     height: 100vh;
 
 } */
-.stat p,h6{
+.stat p,.stat h6{
     color: #D4D4D8;
 }
 /* statistics-section */
