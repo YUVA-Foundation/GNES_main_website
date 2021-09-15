@@ -37,14 +37,14 @@ h2{
 
 /*Hero-section*/
 #hero-section{
-    background-image: url(../Assets/Home/Hero\ background.png);
+    background-image: url(../assets/home/hero/background.png);
     height: 84.6vh;
 }
 /* Hero-section */
 
 /* Statistic-section */
 .stat-container{
-    background-image: url(../Assets/Home/Statistic\ Background.png);
+    background-image: url(../assets/home/statistic/Background.png);
     height: 100vh;
 
 }
