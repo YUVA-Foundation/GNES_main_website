@@ -43,11 +43,11 @@ h2{
 /* Hero-section */
 
 /* Statistic-section */
-#statistics h2{
+.statistics h2{
     margin-top:2rem;
     text-align:center;
 }
-#statistics h2 span{
+.statistics h2 span{
     display:block;
     margin-top:-37px;
     margin-bottom: 1rem;
@@ -68,7 +68,7 @@ h2{
     left:0px;
     width:100%;
     height:100%;
-    background-image: url(/assets/home/Hero\ background.png);
+    background-image: url(/assets/home/hero_bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -102,10 +102,10 @@ h2{
 
 @media screen and (max-width:500px)
 {
-    #statistics h2{
+    .statistics h2{
         font-size:1.8rem;
     }
-    #statistics h2 span{
+    .statistics h2 span{
         margin-top:-25px;
     }
 }
