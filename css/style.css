@@ -116,7 +116,7 @@ header img{
 @media screen and (max-width:600px)
 {
     #header-logo img{
-        width:42px;
+        width:37.3px;
     }
     #header-logo-text h3{
         font-size:0.72rem;
@@ -134,7 +134,14 @@ header img{
         font-size:0.7rem;
     }
 }
+@media screen and (max-width: 320px)
+{
+    #header-logo-text h3 {
+    font-size: 0.6rem;
+}
+}
 /* Header section */
+
 /*Hero-section*/
 #hero-section{
     height: 84.6vh;
@@ -208,19 +215,77 @@ header img{
         width:100%;
     }
 }
-
 /* Hero-section */
 
-/* Statistic-section */
-.statistics h2{
+/* section heading */
+ section .heading{
     margin-top:2rem;
     text-align:center;
 }
-.statistics h2 span{
+ section .heading span{
     display:block;
     margin-top:-37px;
     margin-bottom: 1rem;
 }
+@media screen and (max-width:500px)
+{
+    section .heading{
+        font-size:1.8rem;
+    }
+    section .heading span{
+        margin-top:-25px;
+    }
+}
+/* section heading */
+
+/* about section */
+#about-college{
+    padding:0rem 1.2rem;
+    width:94%;
+    margin:10px auto 25px auto;
+}
+#about-college h4{
+    font-size:1.3rem;
+}
+#about-college p{
+    font-size:1.1rem;
+}
+#about-founder{
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-top:2rem;
+    flex-wrap: wrap;
+}
+#about-founder-text{
+    flex:0.8 1 0;
+}
+#about-founder-text h4{
+    font-size:1.3rem;
+}
+#about-founder-text p{
+    font-size:1.1rem;
+}
+#about-founder-img{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+#about-founder-img span{
+    background-color:var(--blue-shade);
+    color:white;
+    width:60%;
+    text-align:center;
+    padding:0.4rem;
+}
+#about-founder-img img{
+    width:60%;
+}
+/* about section */
+
+
+/* Statistic-section */
 .stat-container{
     position: relative;
     height:fit-content;
@@ -267,15 +332,5 @@ header img{
 .stat p,h6{
     color: #D4D4D8;
     text-align:center
-}
-
-@media screen and (max-width:500px)
-{
-    .statistics h2{
-        font-size:1.8rem;
-    }
-    .statistics h2 span{
-        margin-top:-25px;
-    }
 }
 /* statistics-section */
