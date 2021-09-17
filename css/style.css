@@ -32,6 +32,9 @@ h2{
     background-color: rgba(0, 0, 0, 0.5); /* Tint color */
     background-blend-mode: multiply;
 }
+section{
+    margin-bottom:2rem;
+}
 /* Global styling ends */
 
 #bgrd{
@@ -221,10 +224,11 @@ header img{
  section .heading{
     margin-top:2rem;
     text-align:center;
+    font-size:1.8rem;
 }
  section .heading span{
     display:block;
-    margin-top:-37px;
+    margin-top:-20px;
     margin-bottom: 1rem;
 }
 @media screen and (max-width:500px)
@@ -415,3 +419,102 @@ header img{
     }
 }
 /* more-link */
+
+/* campus section */
+.campus-life p{
+    padding:1rem 2.5rem;
+}
+.campus-div{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.campus-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1rem;
+}
+/* campus section */
+
+/* news section */
+.newsFeed{
+    margin-bottom:2rem;
+}
+.newsFeed p{
+    padding:1rem 2.5rem;
+}
+.news-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.news-card{
+    margin:1rem 0px;
+}
+/* news section */
+
+/* placement section */
+.placement p{
+    padding:1rem 2.5rem;
+}
+.placement-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.placement-card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+}
+.placement-card p{
+    background-color:var(--blue-shade);
+    color:white;
+    width:100%;
+    text-align:center;
+}
+/* placement section */
+
+/* strip */
+.strip{
+    margin-top:15rem;
+    background-color:var(--blue-shade);
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:0rem 2rem;
+}
+.strip img{
+    position:relative;
+    top:-5rem;
+    left:-3rem;
+    width:50%;
+}
+.cont{
+    width:40%;
+    margin-right:1rem;
+}
+.cont h1{
+    color:white;
+}
+.cont p{
+   color:white;
+    font-size:1rem;
+}
+.cont button{
+    padding:0.5rem 1rem;
+    outline:none;
+    border:none;
+    background-color:var(--orange-shade);
+    color:white;
+    font-weight:bold;
+    margin-top:1rem;
+}
+/* strip */
