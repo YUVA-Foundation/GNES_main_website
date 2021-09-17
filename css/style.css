@@ -286,6 +286,12 @@ header img{
 #about-founder-img img{
     width:60%;
 }
+@media screen and (max-width:600px)
+{
+    #about-founder-img img{
+        margin-top:2rem;
+    }
+}
 /* about section */
 
 
@@ -315,7 +321,7 @@ header img{
     filter:brightness(0.3)
 }
 .stat{
-    margin:1rem 5rem;
+    margin:3rem 5rem;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -338,6 +344,56 @@ header img{
     text-align:center
 }
 /* statistics-section */
+
+/* events and highlights section */
+.events-highlights{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2rem;
+    flex-wrap:wrap;
+}
+.events{
+    /* padding:3rem; */
+    width:40%;
+}
+.highlights{
+    /* padding:3rem; */
+    width:40%;
+}
+.highlights h2,.events h2{
+    text-align:left;
+}
+.highlight-card,.event-card{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    width:90%;
+    margin:20px auto;
+}
+.highlight-card img,.event-card img{
+    width:100%;
+    max-height: 100%;
+}
+.highlight-card p,.event-card p{
+    background-color:var(--blue-shade);
+    text-align:center;
+    color:white;
+    width:100%;
+    padding:0.5rem;
+}
+
+@media screen and (max-width:850px)
+{
+    .events,.highlights{
+        width:90%;
+    }
+    .events h2,.highlights h2{
+        text-align:center;
+    }
+}
+/* events-highlights section */
 
 /* testimonial section */
 .test-container{
@@ -418,7 +474,53 @@ header img{
         top: -10px;
     }
 }
+.more-link:hover{
+    color:var(--orange-shade);
+}
 /* more-link */
+
+/* news section */
+.newsFeed{
+    margin-bottom:2rem;
+}
+.newsFeed p{
+    padding:1rem 2.5rem;
+}
+.news-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.news-card{
+    margin:1rem;
+}
+/* news section */
+
+/* placement section */
+.placement p{
+    padding:1rem 2.5rem;
+}
+.placement-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.placement-card{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+    margin:1rem;
+}
+.placement-card p{
+    background-color:var(--blue-shade);
+    color:white;
+    width:100%;
+    text-align:center;
+}
+/* placement section */
 
 /* campus section */
 .campus-life p{
@@ -439,51 +541,9 @@ header img{
 }
 /* campus section */
 
-/* news section */
-.newsFeed{
-    margin-bottom:2rem;
-}
-.newsFeed p{
-    padding:1rem 2.5rem;
-}
-.news-container{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap:wrap;
-}
-.news-card{
-    margin:1rem 0px;
-}
-/* news section */
-
-/* placement section */
-.placement p{
-    padding:1rem 2.5rem;
-}
-.placement-container{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap:wrap;
-}
-.placement-card{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items:center;
-}
-.placement-card p{
-    background-color:var(--blue-shade);
-    color:white;
-    width:100%;
-    text-align:center;
-}
-/* placement section */
-
 /* strip */
 .strip{
-    margin-top:15rem;
+    margin-top:13rem;
     background-color:var(--blue-shade);
     height:300px;
     display:flex;
