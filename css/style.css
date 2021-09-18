@@ -287,53 +287,53 @@ section .heading span {
 /* about section */
 
 /* Statistic-section */
-.stat-container {
-  position: relative;
-  height: fit-content;
-  display: flex;
-  padding: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.stat-container{
+    position: relative;
+    height:fit-content;
+    display:flex;
+    padding:2rem;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
 }
-.stat-container::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100%;
-  background-image: url(../assets/home/hero_bg.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: -1;
-  opacity: 0.9;
-  filter: brightness(0.3);
+.stat-container::before{
+    content: "";
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background-image: url(../assets/home/hero_bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index:-1;
+    opacity:0.9;
+    filter:brightness(0.3);
 }
-.stat {
-  margin: 3rem 5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+.stat{
+    margin:3rem 5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
 }
-.stat h6 {
-  margin-top: 10px;
-  font-size: 2rem;
-  font-weight: 700;
+.stat h6{
+    margin-top:10px;
+    font-size:2rem;
+    font-weight:700;
 }
-.stat img {
-  width: 100px;
-  height: 100px;
+.stat img{
+    width:100px;
+    height:100px;
 }
-.stat p {
-  margin-top: 0px;
+.stat p{
+    margin-top:0px;
+    color:white;
 }
-.stat p,
-h6 {
-  color: #d4d4d8;
-  text-align: center;
+.stat p,h6{
+    color: #D4D4D8;
+    text-align:center
 }
 /* statistics-section */
 
@@ -493,7 +493,7 @@ h6 {
 .more-link {
   position: relative;
   top: -40px;
-  left: 90%;
+  left: 87%;
   font-size: 1rem;
   text-decoration: none;
 }
@@ -521,8 +521,21 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
 }
-.news-card {
-  margin: 1rem;
+.news-card{
+    margin:1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.news-card p{
+    width:95%;
+    background-color:var(--blue-shade);
+    color:white;
+    text-align: center;
+}
+.news-card img{
+    width: 95%;
 }
 /* news section */
 
@@ -561,12 +574,13 @@ h6 {
   align-items: center;
   flex-wrap: wrap;
 }
-.campus-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 1rem;
+.campus-block{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1rem;
+    margin: 0rem 1.5rem;
 }
 /* campus section */
 
@@ -650,6 +664,7 @@ dt {
   color: #015198;
 }
 
+
 dd {
   font-family: Roboto;
   font-size: 13px;
@@ -695,7 +710,7 @@ dd {
   border-radius: 0px;
 }
 
-h6 {
+#footer-address {
   color: black;
 }
 
