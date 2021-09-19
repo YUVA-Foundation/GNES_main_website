@@ -287,53 +287,54 @@ section .heading span {
 /* about section */
 
 /* Statistic-section */
-.stat-container{
-    position: relative;
-    height:fit-content;
-    display:flex;
-    padding:2rem;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: center;
+.stat-container {
+  position: relative;
+  height: fit-content;
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.stat-container::before{
-    content: "";
-    position: absolute;
-    top:0px;
-    left:0px;
-    width:100%;
-    height:100%;
-    background-image: url(../assets/home/hero_bg.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index:-1;
-    opacity:0.9;
-    filter:brightness(0.3);
+.stat-container::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../assets/home/hero_bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 0.9;
+  filter: brightness(0.3);
 }
-.stat{
-    margin:3rem 5rem;
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    flex-direction:column;
+.stat {
+  margin: 3rem 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.stat h6{
-    margin-top:10px;
-    font-size:2rem;
-    font-weight:700;
+.stat h6 {
+  margin-top: 10px;
+  font-size: 2rem;
+  font-weight: 700;
 }
-.stat img{
-    width:100px;
-    height:100px;
+.stat img {
+  width: 100px;
+  height: 100px;
 }
-.stat p{
-    margin-top:0px;
-    color:white;
+.stat p {
+  margin-top: 0px;
+  color: white;
 }
-.stat p,h6{
-    color: #D4D4D8;
-    text-align:center
+.stat p,
+h6 {
+  color: #d4d4d8;
+  text-align: center;
 }
 /* statistics-section */
 
@@ -521,21 +522,21 @@ section .heading span {
   align-items: center;
   flex-wrap: wrap;
 }
-.news-card{
-    margin:1rem;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.news-card {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.news-card p{
-    width:95%;
-    background-color:var(--blue-shade);
-    color:white;
-    text-align: center;
+.news-card p {
+  width: 95%;
+  background-color: var(--blue-shade);
+  color: white;
+  text-align: center;
 }
-.news-card img{
-    width: 95%;
+.news-card img {
+  width: 95%;
 }
 /* news section */
 
@@ -574,13 +575,13 @@ section .heading span {
   align-items: center;
   flex-wrap: wrap;
 }
-.campus-block{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding:1rem;
-    margin: 0rem 1.5rem;
+.campus-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0rem 1.5rem;
 }
 /* campus section */
 
@@ -663,7 +664,6 @@ dt {
   text-align: left;
   color: #015198;
 }
-
 
 dd {
   font-family: Roboto;
@@ -769,4 +769,390 @@ footer span a {
 }
 footer span a:hover {
   text-decoration: underline;
+}
+
+/*ABOUT PAGE*/
+
+/*About section*/
+
+#about-college p {
+  font-size: 1.1rem;
+}
+#about-college-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+#about-college-img img {
+  width: 80%;
+  height: auto;
+}
+@media screen and (max-width: 400px) {
+  #about-college-img img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+}
+
+/*Vision Section*/
+#vision-college {
+  padding: 0.9rem 1.2rem;
+  width: 94%;
+  margin: 10px 0px 25px 0px;
+}
+
+#vision-college h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  margin-bottom: 2rem;
+  color: #334756;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+#vision-college p {
+  font-family: Lato;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding-left: 48px;
+  padding-right: 48px;
+  color: #667580;
+}
+
+#vision-college span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/*Mission Section*/
+.mission {
+  margin-bottom: 20px;
+}
+
+.wrapper-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px 20px;
+}
+.wrapper-1 > div {
+  padding: 4px;
+  margin: 20px 10px;
+}
+
+.wrapper-2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-left: 1rem;
+}
+
+.wrapper-2 .sub-wrap-left img {
+  height: 82px;
+  width: 82px;
+  border-radius: 0px;
+  margin-bottom: 10px;
+  min-width: none;
+  object-fit: cover;
+}
+
+.sub-wrap-left {
+  display: grid;
+  justify-self: center;
+}
+
+.sub-wrap-right h3 {
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #667580;
+}
+
+@media (max-width: 500px) {
+  .wrapper-1 {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper-2 .sub-wrap-left img {
+    height: 82px;
+    width: 82px;
+    min-width: none;
+    object-fit: cover;
+  }
+  #about-college-img img {
+    margin-bottom: 2rem;
+  }
+}
+
+/*Message Section*/
+.Chairperson-message {
+  background-color: #334756;
+  padding: 20px 40px;
+  margin-bottom: 0px;
+}
+#about-chairperson-text {
+  flex: 0.8 1;
+}
+#about-chairperson-text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+#about-chairperson-text p {
+  font-size: 1.1rem;
+  color: #fff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+#about-chairperson-img img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+/* #about-chairperson-img span {
+  color: #334756;
+  width: 100%;
+  text-align: center;
+  padding: 0.4rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(0.3px);
+} */
+.Principal-message {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 0px;
+}
+#about-principal-text {
+  flex: 0.8 1;
+}
+#about-principal-text h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #334756;
+}
+#about-principal-text p {
+  font-size: 1.1rem;
+  color: #637582;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+#about-principal-img img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* #about-principal-img span {
+  color: #334756;
+  width: 100%;
+  text-align: center;
+  padding: 0.4rem;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0px 1px 47px rgba(0, 0, 0, 0.09);
+  backdrop-filter: blur(0.3px);
+} */
+
+/*About Institutions*/
+.about-institution {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 0px;
+}
+
+#about-institutions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+#about-institutions-text {
+  flex: 0.8 1;
+}
+#about-institutions-text p {
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+#about-institutions-text button {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--orange-shade);
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  width: 193px;
+  height: 48px;
+}
+#about-institutions-text button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+.about-institution h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334756;
+  margin: 20px 0px;
+}
+#about-institutions-img {
+  display: flex;
+  border: 4px solid #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+/*Awards and Achievements*/
+
+/*Administration*/
+
+/*Objective of Insititutions*/
+.wrapper-11 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px 20px;
+}
+.wrapper-11 > div {
+  padding: 4px;
+  margin: 20px 10px;
+}
+@media (max-width: 500px) {
+  .wrapper-11 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 600px) {
+  .wrapper-11 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 360px) {
+  .wrapper-11 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4px;
+    padding: 10px 0px;
+  }
+}
+
+/*Affiliations*/
+.affiliation h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #334756;
+  margin: 23px 0px;
+  letter-spacing: 0em;
+}
+.affiliation .campus-div {
+  background: rgba(51, 71, 86, 1);
+}
+.campus-block-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+.campus-block-2 img {
+  margin-top: 10px;
+  height: 184px;
+  width: 184px;
+}
+.campus-block-2 h5 {
+  font-family: Lato;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  margin-top: 8px;
+  color: #fff;
+}
+.affiliation p {
+  padding: 1rem 1rem;
+  font-family: Lato;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+
+/*About Institute Page*/
+.about-institute {
+  background-color: #fff;
+  padding: 20px 40px;
+  margin-bottom: 0px;
+  flex: 0.8 1;
+}
+
+#about-institute p {
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
 }
