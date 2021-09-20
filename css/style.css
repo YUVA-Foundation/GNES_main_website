@@ -312,7 +312,7 @@ section .heading span {
   filter: brightness(0.3);
 }
 .stat {
-  margin:2rem 4rem;
+  margin: 2rem 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,15 +337,14 @@ h6 {
   text-align: center;
 }
 
-@media screen and (max-width:450px)
-{
-    .stat-container{
-        justify-content: space-evenly;
-    }
-    .stat{
-        margin:1rem 0.2rem;
-        width:40%;
-    }
+@media screen and (max-width: 450px) {
+  .stat-container {
+    justify-content: space-evenly;
+  }
+  .stat {
+    margin: 1rem 0.2rem;
+    width: 40%;
+  }
 }
 /* statistics-section */
 
@@ -382,13 +381,13 @@ h6 {
   animation-duration: 2s;
   position: relative;
 }
-@keyframes fade{
-    from{
-        opacity:0.5;
-    }
-    to{
-        opacity:1;
-    }
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .highlight-card img,
 .event-card img {
@@ -471,7 +470,6 @@ h6 {
   animation-name: fade;
   animation-duration: 1s;
   position: relative;
-
 }
 .t-card-top p {
   position: relative;
@@ -515,15 +513,16 @@ h6 {
   color: white;
   font-weight: 100;
 }
-#testimonial-increase,#testimonial-decrease{
-    width:30px;
-    height:30px;
-    padding:0.5rem;
-    font-size:0.7rem;
-    background-color: var(--blue-shade);
-    color:white;
-    border-radius:50%;
-    text-align:center;
+#testimonial-increase,
+#testimonial-decrease {
+  width: 30px;
+  height: 30px;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  background-color: var(--blue-shade);
+  color: white;
+  border-radius: 50%;
+  text-align: center;
 }
 
 /* testimonial section */
@@ -595,8 +594,8 @@ h6 {
   align-items: center;
   margin: 1rem;
 }
-.placement-card img{
-    max-width:100%;
+.placement-card img {
+  max-width: 100%;
 }
 .placement-card p {
   background-color: var(--blue-shade);
@@ -604,11 +603,10 @@ h6 {
   width: 100%;
   text-align: center;
 }
-@media screen and (max-width:500px)
-{
-    .placement-card{
-        width: 95%;
-    }
+@media screen and (max-width: 500px) {
+  .placement-card {
+    width: 95%;
+  }
 }
 /* placement section */
 
@@ -630,18 +628,17 @@ h6 {
   padding: 1rem;
   margin: 0rem 1.5rem;
 }
-@media screen and (max-width:450px)
-{
-    .campus-block{
-        margin:0.5rem;
-        width:40%;
-    }
-    .campus-block img{
-        max-width:100%;
-    }
-    .campus-life p{
-        text-align:justify;
-    }
+@media screen and (max-width: 450px) {
+  .campus-block {
+    margin: 0.5rem;
+    width: 40%;
+  }
+  .campus-block img {
+    max-width: 100%;
+  }
+  .campus-life p {
+    text-align: justify;
+  }
 }
 /* campus section */
 
@@ -657,7 +654,7 @@ h6 {
 }
 .strip img {
   position: absolute;
-  bottom:0px;
+  bottom: 0px;
   left: -1rem;
   width: 45%;
 }
@@ -681,155 +678,149 @@ h6 {
   font-weight: bold;
   margin-top: 1rem;
 }
-@media screen and (max-width:980px)
-{
-    .cont h1{
-        font-size:1.8rem;
-    }
+@media screen and (max-width: 980px) {
+  .cont h1 {
+    font-size: 1.8rem;
+  }
 }
-@media screen and (max-width:780px)
-{
-    .strip{
-        margin-top:6rem;
-    }
-    .cont h1{
-        font-size:1.5rem;
-    }
-    .cont p{
-        font-size:0.8rem;
-    }
+@media screen and (max-width: 780px) {
+  .strip {
+    margin-top: 6rem;
+  }
+  .cont h1 {
+    font-size: 1.5rem;
+  }
+  .cont p {
+    font-size: 0.8rem;
+  }
 }
-@media screen and (max-width:420px)
-{
-    .cont{
-        width:45%;
-    }
+@media screen and (max-width: 420px) {
+  .cont {
+    width: 45%;
+  }
 }
-@media screen and (max-width:550px)
-{
-    .cont{
-        width:50%;
-        margin-right:0px;
-    }
-    .cont h1{
-        font-size:1rem;
-    }
-    .cont p{
-        font-size:0.7rem;
-    }
-    .strip img{
-        width:100%;
-        left:-8rem;
-    }
-    .cont button {
-        padding: 0.3rem 0.8rem;
-        font-size:0.5rem;
-        margin-top: 0.5rem;
-      }
+@media screen and (max-width: 550px) {
+  .cont {
+    width: 50%;
+    margin-right: 0px;
+  }
+  .cont h1 {
+    font-size: 1rem;
+  }
+  .cont p {
+    font-size: 0.7rem;
+  }
+  .strip img {
+    width: 100%;
+    left: -8rem;
+  }
+  .cont button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
+  }
 }
 /* strip */
 
-
-
 /* navigate buttons for carousels */
-.navigate{
-    display: flex;
-    align-items:center;
-    justify-content: flex-end;
-    padding:0rem 1rem;
-    /* margin-top:-30px; */
+.navigate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0rem 1rem;
+  /* margin-top:-30px; */
 }
-.navigate-left,.navigate-right{
-    font-size:1.7rem;
-    margin:0px 10px;
+.navigate-left,
+.navigate-right {
+  font-size: 1.7rem;
+  margin: 0px 10px;
 }
 
 /* footer */
-#footer{
-    height:fit-content;
-    cursor: pointer;
+#footer {
+  height: fit-content;
+  cursor: pointer;
 }
 dt {
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #015198;
-    margin-bottom: -15px;
-  }
-  
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #015198;
+  margin-bottom: -15px;
+}
+
 dd {
-    font-family: Roboto;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-  }
-#footer-logo{
-    text-align:center;
-    margin-left:-30px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
 }
-#footer-logo .brand img{
-    width:40%;
+#footer-logo {
+  text-align: center;
+  margin-left: -30px;
 }
-#footer-logo h6{
-    font-size:0.8rem;
+#footer-logo .brand img {
+  width: 40%;
 }
-#footer-address{
-    color:var(--blue-shade);
+#footer-logo h6 {
+  font-size: 0.8rem;
 }
-#social-media ul{
-    margin-left:-40px;
-    margin-top:0.8rem;
+#footer-address {
+  color: var(--blue-shade);
 }
-#social-media ul li{
-    display:inline;
-    width:20px;
-    height: 20px;
+#social-media ul {
+  margin-left: -40px;
+  margin-top: 0.8rem;
+}
+#social-media ul li {
+  display: inline;
+  width: 20px;
+  height: 20px;
 }
 #social-media ul li a {
-    margin:10px 8px;
-    border-radius:50%;
-    padding:0.5rem;
-    border:0.5px solid black;
-    color:black;
+  margin: 10px 8px;
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: 0.5px solid black;
+  color: black;
 }
 #social-media ul li a:hover {
-    color:white;
-    background-color: var(--blue-shade);
+  color: white;
+  background-color: var(--blue-shade);
 }
-#imp-links dl a{
-    color:black;
-    text-decoration: none;
+#imp-links dl a {
+  color: black;
+  text-decoration: none;
 }
-#imp-links dl dd:hover{
-    color:red;
+#imp-links dl dd:hover {
+  color: red;
 }
-#quick-links dl a{
-    color:black;
-    text-decoration: none;
+#quick-links dl a {
+  color: black;
+  text-decoration: none;
 }
-#quick-links dl dd:hover{
-    color:red;
+#quick-links dl dd:hover {
+  color: red;
 }
-#copyright-text{
-    height:15px;
-    text-align:center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--blue-shade);
-    color:white;
-    padding:1.2rem;
-    margin-bottom:0px;
+#copyright-text {
+  height: 15px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--blue-shade);
+  color: white;
+  padding: 1.2rem;
+  margin-bottom: 0px;
 }
 /* footer */
-
 
 /*ABOUT PAGE*/
 
@@ -861,8 +852,8 @@ dd {
 /*Vision Section*/
 #vision-college {
   padding: 0.9rem 1.2rem;
-  width: 94%;
-  margin: 10px 0px 25px 0px;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
 }
 
 #vision-college h6 {
@@ -871,10 +862,10 @@ dd {
   font-style: normal;
   font-weight: 600;
   line-height: 35px;
-  margin-bottom: 2rem;
-  color: #334756;
   letter-spacing: 0em;
   text-align: center;
+  color: #334756;
+  margin: 20px 0px;
 }
 
 #vision-college p {
@@ -888,6 +879,9 @@ dd {
   padding-left: 48px;
   padding-right: 48px;
   color: #667580;
+}
+#vision-college .sub-wrap-right h3 {
+  line-height: 25px;
 }
 
 #vision-college span {
@@ -1052,7 +1046,7 @@ dd {
 
 /*About Institutions*/
 .about-institution {
-  background-color: #fff;
+  background-color: rgb(219, 218, 218);
   padding: 20px 40px;
   margin-bottom: 0px;
 }
@@ -1063,6 +1057,7 @@ dd {
   align-items: center;
   margin-top: 2rem;
   flex-wrap: wrap;
+  padding-bottom: 34px;
 }
 #about-institutions-text {
   flex: 0.8 1;
@@ -1175,8 +1170,8 @@ dd {
 }
 .campus-block-2 img {
   margin-top: 10px;
-  height: 184px;
-  width: 184px;
+  height: 84px;
+  width: 84px;
 }
 .campus-block-2 h5 {
   font-family: Lato;
@@ -1197,7 +1192,7 @@ dd {
   font-weight: 200;
   line-height: 20px;
   letter-spacing: 0em;
-  text-align: left;
+  text-align: center;
   color: #fff;
 }
 
@@ -1216,4 +1211,3 @@ dd {
   font-weight: 400;
   text-align: left;
 }
-
