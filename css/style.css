@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* ----------------------------------------------COMMON CSS-------------------------------------------- */
 :root {
   /* colour */
   --blue-shade: #334756;
@@ -36,11 +36,20 @@ section {
 }
 /* Global styling ends */
 
+
+/* ----------------------------------------------HOME CSS-------------------------------------------- */
 #bgrd {
   background-color: var(--blue-shade);
 }
 .nav-link {
   color: white;
+  font-size:1rem;
+}
+.dropdown-item{
+    font-size:0.9rem;
+}
+.dropdown-item:hover{
+    color:red;
 }
 
 /* Header section */
@@ -616,7 +625,7 @@ h6 {
 }
 .campus-div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -631,7 +640,7 @@ h6 {
 @media screen and (max-width: 450px) {
   .campus-block {
     margin: 0.5rem;
-    width: 40%;
+    width: 35%;
   }
   .campus-block img {
     max-width: 100%;
@@ -817,12 +826,27 @@ dd {
   align-items: center;
   background-color: var(--blue-shade);
   color: white;
-  padding: 1.2rem;
+  padding: 1.6rem;
   margin-bottom: 0px;
+}
+
+@media screen and (max-width:500px)
+{
+    #footer .row{
+        align-items: center;
+    }
+    #footer-logo{
+        text-align:center;
+        margin-left:0px;
+    }
+    dt,dd{
+        text-align:center;
+    }
 }
 /* footer */
 
-/*ABOUT PAGE*/
+
+/* ----------------------------------------------ABOUT CSS-------------------------------------------- */
 
 /*About section*/
 
