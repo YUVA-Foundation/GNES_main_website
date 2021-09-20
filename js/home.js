@@ -36,6 +36,10 @@ function eventCarousel(n)
 }
 
 eventCarousel(eventcounter);
+setInterval(function()
+{
+    eventCarousel(++eventcounter);
+},8000);
 event_slider_left.addEventListener("click",function(){
     eventCarousel(--eventcounter);
 });
@@ -65,6 +69,10 @@ function highlightCarousel(n)
 }
 
 highlightCarousel(highlightCounter);
+setInterval(function()
+{
+    highlightCarousel(++highlightCounter);
+},8000);
 highlight_slider_left.addEventListener("click",function(){
     highlightCarousel(--highlightCounter);
 });
