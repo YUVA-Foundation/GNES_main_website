@@ -833,7 +833,7 @@ dd {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width:500px)
+@media screen and (max-width:1500px)
 {
     #footer .row{
         align-items: center;
@@ -1237,4 +1237,63 @@ dd {
   font-style: normal;
   font-weight: 400;
   text-align: left;
+}
+
+/* ----------------------------------------------MAIN ADMISSION CSS-------------------------------------------- */
+thead{
+  background-color: var(--blue-shade);
+  color:white;
+}
+.table{
+  text-align:center;
+  column-gap: 1rem;
+  cursor:pointer;
+}
+td{
+  font-size:0.9rem;
+}
+.subheading{
+  color:var(--blue-shade);
+  font-size:1.5rem;
+  margin:1rem;
+}
+#admission-cards{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  text-align:center;
+  flex-wrap:wrap;
+}
+.g-card{
+  padding:2.5rem;
+  margin:1.5rem 2rem;
+  width:400px;
+  border-radius:10px;
+}
+#ug-card{
+  background-color: var(--orange-shade);
+  color:white;
+}
+#pg-card{
+  background-color: var(--blue-shade);
+  color:white;
+}
+.accordion-button{
+  background-color:rgba(51, 71, 86,0.8);
+  color:white;
+}
+.accordion-button:hover{
+  background-color:rgba(51, 71, 86,0.4);
+  color:black;
+  outline:none;
+  box-shadow:none;
+}
+.accordion-button:active{
+  background-color: var(--blue-shade);
+  color:white;
+  outline:none;
+  box-shadow:none;
+}
+.accordion-item{
+  box-shadow: 1px 1px 2px 1px lightgrey;
 }
