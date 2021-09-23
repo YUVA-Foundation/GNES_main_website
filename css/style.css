@@ -36,20 +36,19 @@ section {
 }
 /* Global styling ends */
 
-
 /* ----------------------------------------------HOME CSS-------------------------------------------- */
 #bgrd {
   background-color: var(--blue-shade);
 }
 .nav-link {
   color: white;
-  font-size:1rem;
+  font-size: 1rem;
 }
-.dropdown-item{
-    font-size:0.9rem;
+.dropdown-item {
+  font-size: 0.9rem;
 }
-.dropdown-item:hover{
-    color:red;
+.dropdown-item:hover {
+  color: red;
 }
 
 /* Header section */
@@ -616,8 +615,8 @@ h6 {
   .placement-card {
     width: 95%;
   }
-  .placement-card img{
-      max-width:100%;
+  .placement-card img {
+    max-width: 100%;
   }
 }
 /* placement section */
@@ -833,21 +832,20 @@ dd {
   margin-bottom: 0px;
 }
 
-@media screen and (max-width:1500px)
-{
-    #footer .row{
-        align-items: center;
-    }
-    #footer-logo{
-        text-align:center;
-        margin-left:0px;
-    }
-    dt,dd{
-        text-align:center;
-    }
+@media screen and (max-width: 1500px) {
+  #footer .row {
+    align-items: center;
+  }
+  #footer-logo {
+    text-align: center;
+    margin-left: 0px;
+  }
+  dt,
+  dd {
+    text-align: center;
+  }
 }
 /* footer */
-
 
 /* ----------------------------------------------ABOUT CSS-------------------------------------------- */
 
@@ -1240,60 +1238,74 @@ dd {
 }
 
 /* ----------------------------------------------MAIN ADMISSION CSS-------------------------------------------- */
-thead{
-  background-color: var(--blue-shade);
-  color:white;
+thead {
+  background-color: black;
+  color: white;
 }
-.table{
-  text-align:center;
+.table {
+  text-align: center;
   column-gap: 1rem;
-  cursor:pointer;
+  cursor: pointer;
 }
-td{
-  font-size:0.9rem;
+td {
+  font-size: 0.9rem;
 }
-.subheading{
-  color:var(--blue-shade);
-  font-size:1.5rem;
-  margin:1rem;
+.subheading {
+  color: var(--blue-shade);
+  font-size: 1.5rem;
+  margin: 1rem;
 }
-#admission-cards{
-  display:flex;
+#admission-cards {
+  display: flex;
   justify-content: center;
-  align-items:center;
-  text-align:center;
-  flex-wrap:wrap;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
-.g-card{
-  padding:2.5rem;
-  margin:1.5rem 2rem;
-  width:400px;
-  border-radius:10px;
+.g-card {
+  padding: 2.5rem;
+  margin: 1.5rem 2rem;
+  width: 400px;
+  border-radius: 10px;
 }
-#ug-card{
+#ug-card {
   background-color: var(--orange-shade);
-  color:white;
+  color: white;
 }
-#pg-card{
+#pg-card {
   background-color: var(--blue-shade);
-  color:white;
+  color: white;
 }
-.accordion-button{
-  background-color:rgba(51, 71, 86,0.8);
-  color:white;
+.accordion-button {
+  background-color: rgba(51, 71, 86, 0.8);
+  color: white;
 }
-.accordion-button:hover{
-  background-color:rgba(51, 71, 86,0.4);
-  color:black;
-  outline:none;
-  box-shadow:none;
+.accordion-button:hover {
+  background-color: rgba(51, 71, 86, 0.4);
+  color: black;
+  outline: none;
+  box-shadow: none;
 }
-.accordion-button:active{
+.accordion-button:active {
   background-color: var(--blue-shade);
-  color:white;
-  outline:none;
-  box-shadow:none;
+  color: white;
+  outline: none;
+  box-shadow: none;
 }
-.accordion-item{
+.accordion-item {
   box-shadow: 1px 1px 2px 1px lightgrey;
+}
+
+/* ----------------------------------------------GRADUATION BE ADMISSION CSS-------------------------------------------- */
+
+.grad h4 {
+  color: #334756;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 0.6rem;
+  text-align: left;
+}
+
+.admission p {
+  line-height: 34.1px;
 }
