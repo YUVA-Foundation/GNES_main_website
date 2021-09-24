@@ -1267,12 +1267,14 @@ td {
   margin: 1.5rem 2rem;
   width: 400px;
   border-radius: 10px;
+  background-color:rgba(211, 211, 211,0.4);
+  color:rgba(0,0,0,0.7);
 }
-#ug-card {
+#ug-card:hover {
   background-color: var(--orange-shade);
   color: white;
 }
-#pg-card {
+#pg-card:hover {
   background-color: var(--blue-shade);
   color: white;
 }
@@ -1281,8 +1283,9 @@ td {
   color: white;
 }
 .accordion-button:hover {
-  background-color: rgba(51, 71, 86, 0.4);
-  color: black;
+  /* background-color: rgba(51, 71, 86, 0.4); */
+  background-color: var(--orange-shade);
+  /* color: black; */
   outline: none;
   box-shadow: none;
 }
@@ -1308,4 +1311,71 @@ td {
 
 .admission p {
   line-height: 34.1px;
+}
+
+
+/* ----------------------------------------------FACILITIES CSS-------------------------------------------- */
+
+.facilities-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.facility-box{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-basis:29%;
+  background-color:var(--blue-shade);
+  margin:2rem;
+  padding:1rem;
+  border-radius:20px;
+}
+.facility-box:hover{
+  background-color:var(--orange-shade);
+}
+.facility-box p{
+  color:white;
+  margin-bottom:0px;
+  font-size:1.2rem;
+}
+.facility-box img{
+  width:110px;
+}
+.sliding-carousel{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  max-width:100vw;
+  overflow: hidden;
+}
+.sliding-carousel img{
+  width:70%;
+  margin-bottom:1.5rem;
+}
+.sliding-carousel i{
+  font-size:2rem;
+}
+.sliding-carousel i:hover{
+  color:grey;
+}
+@media screen and (max-width:1050px)
+{
+  .facility-box{
+    flex-direction: column;
+    margin:1rem;
+  }
+  .facility-box img{
+    width:100px;
+  }
+  #facilities p{
+    font-size:1.1rem;
+  }
+  .sliding-carousel img{
+    width:90%;
+  }
+  .sliding-carousel i{
+    font-size:1rem;
+  }
 }
