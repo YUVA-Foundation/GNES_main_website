@@ -813,6 +813,9 @@ dd {
 #imp-links dl dd:hover {
   color: red;
 }
+#quick-links{
+  align-self: flex-start;
+}
 #quick-links dl a {
   color: black;
   text-decoration: none;
@@ -1391,14 +1394,170 @@ td {
 }
 
 /* ----------------------------------------------STUDENT SUPPORT CSS-------------------------------------------- */
-#admission ul .list {
-  margin-left: 20px;
-  font-family: "Lato", sans-serif;
-  color: var(--text-color);
-  font-weight: 400;
-  font-size: 1.2rem;
+.clubs-container{
+  display:flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
 }
-
+.club-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis:30%;
+}
+.club-box img{
+  width:90%;
+  margin-bottom:1rem;
+}
+.club-name,.service-name{
+  color:var(--orange-shade);
+}
+.club-desc,.service-desc{
+  text-align: center;
+  color:var(--text-color);
+}
+#club-navigate-right,#club-navigate-left,#service-navigate-left,#service-navigate-right{
+  font-size:1.2rem;
+  background-color: var(--blue-shade);
+  color:white;
+  padding: 0px 0.5rem;
+  border-radius: 50%;
+  text-align:center;
+}
+#club-navigate-right:hover,#club-navigate-left:hover{
+  background-color: var(--text-color);
+  color:black;
+}
+.event-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.event-container img{
+  width:500px;
+}
+.event-desc{
+  flex:0.8;
+}
+.event-desc button{
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  background-color: var(--orange-shade);
+  color: white;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.council-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.council-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin:0.8rem;
+}
+.council-name{
+  margin-top:0.5rem;
+  color:var(--blue-shade);
+  font-size:1rem;
+}
+.council-desc{
+  color:var(--text-color);
+  font-size:0.8rem;
+}
+.circles{
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin-top:1.5rem;
+}
+.circles div {
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background-color: var(--blue-shade);
+  margin:0px 0.7rem;
+}
+.circles .active{
+  background-color: var(--orange-shade);
+}
+#academic-expert{
+  margin-top:4rem;
+}
+#student-support-services{
+  margin-bottom: 4rem;
+}
+.services-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:2rem;
+}
+.service-box{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+  padding:2rem;
+  flex:0.8;
+}
+.service-box img{
+  width:450px;
+  margin-bottom: 1rem;
+}
+.service-desc{
+  font-size:1.2rem;
+  margin-top:0.5rem;
+}
+@media screen and (max-width:500px)
+{
+  #club-navigate-right,#club-navigate-left,#service-navigate-right,#service-navigate-left{
+    font-size:0.8rem;
+    width:25px;
+    height:25px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+  .club-desc{
+    font-size:0.7rem;
+  }
+  .club-name{
+    font-size:0.9rem;
+  }
+  .club-box img{
+    width:110%;
+  }
+  .event-desc{
+    flex:1;
+    margin:0px;
+    text-align:justify;
+  }
+  .event-container img{
+    width:330px;
+    margin:1rem 1rem 2rem 1rem;
+  }
+  #student-support-services .subheading{
+    margin-bottom:2rem;
+  }
+  .service-box{
+    padding:0px;
+  }
+  .service-box img{
+    width:200px;
+  }
+  .service-desc{
+    font-size:0.8rem;
+  }
+}
 /* ----------------------------------------------OUTREACH CSS-------------------------------------------- */
 .go-card {
   padding: 2.5rem;
