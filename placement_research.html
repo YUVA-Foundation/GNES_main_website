@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Support</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navbar starts-->
+    <nav class="navbar navbar-expand-lg" id="bgrd">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" style="margin: auto;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Admission
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Facilities
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Student Support
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Placements
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Research
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Outreach
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Alumni
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!------------------Navbar end-------------------->
+
+    <!--  Heading Starts-->
+    <section id="admission">
+        <h2 class="heading">Placement & Research<span>____</span></h2>
+    </section>
+    <!-- Heading Ends-->
+
+    <!-- Image -->
+    <div class="container">
+        <img src="./assets/home/hero_bg.png" alt="header-img" class="px-5 pb-5 img-fluid">
+    </div>
+    <!-- Image ends -->
+
+    <!--------------Vision Section Start------------->
+    <section class="Vision">
+        <div id="vision-college">
+            <h6>Vision</h6>
+            <p>To become a world class, globally competitive and flexible technical and management institution, responsive to the growth of an individual, society, and the institute itself satisfying the developmental needs of the people of Maharashtra and India.</p>
+            <span>____________</span>
+        </div>
+    </section>
+    <!--------------Vision Section End------------->
+    
+    <!--------------Mission Section Start------------->
+    <section class="mission">
+        <div id="vision-college">
+            <h6>Mission</h6>
+            <div class="wrapper-1">
+                <div class="wrapper-2">
+                    <div class="sub-wrap-left"> 
+                       <img src="assets/about/mission/image_43.png" alt="">
+                    </div>
+                    <div class="sub-wrap-right">
+                        <h3>To educate students from all over India & other countries including especially those from the local & rural areas, so that they become enlightened individuals improving the living standards of their families, industries & the society. </h3>
+                   </div>
+                </div>
+                <div class="wrapper-2">
+                    <div class="sub-wrap-left"> 
+                       <img src="assets/about/mission/image_43.png" alt="">
+                    </div>
+                    <div class="sub-wrap-right">
+                        <h3>To serve as a centre for fostering the co-operation and the exchange of ideas between the academicians and the research community on one hand and welcome the industrial community and the Government organizations to promote the entrepreneurship development among the students. </h3>
+                   </div>
+                </div>
+                <div class="wrapper-2">
+                    <div class="sub-wrap-left"> 
+                       <img src="assets/about/mission/image_45.png" alt="">
+                    </div>
+                    <div class="sub-wrap-right">
+                        <h3>We will provide the world class quality education & pay serious attention towards the development of an individual for character building & the nation building.
+                        </h3>
+                   </div>
+                </div>
+                <div class="wrapper-2">
+                    <div class="sub-wrap-left"> 
+                       <img src="assets/about/mission/image_46.png" alt="">
+                    </div>
+                    <div class="sub-wrap-right">
+                        <h3>To implement a program of education in Engineering Technology and management studies, relevant to the current needs of the industry, alive to the long term requirements and responsive to the anticipated changes and developments.
+                        </h3>
+                   </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <!--------------Mission Section End------------->
+
+    <!-- Why prefer us -->
+    <dsection class="why-prefer-us">
+        <div class="why-prefer-heading px-5 py-1">
+            <h5>Why recruiters prefer us?</h5>
+        </div>
+        <div class="why-prefer-body mx-5 p-4">
+            <p>Located in the IT corridor, KCG College of Technology has state-of-art infrastructure set within a beautifully landscaped campus. It is only 20 minutes from Adyar, and is well connected by public transport. It is “best engineering college affiliated to Anna University”, accredited A+ by NAAC, and three departments are also accredited by NBA. .</p>
+        </div>
+    </section>
+
+    <!-- Training and placement team -->
+    <section id="tp_team" class="container">
+        <h6 class="subheading mt-5 mb-5">Training and Placement Team</h6>
+        <div class="row team-container justify-content-evenly align-items-center">
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- Department of cordinators -->
+    <section id="cordinators" class="container">
+        <h6 class="subheading my-5">Department Of Cordinators</h6>
+        <div class="cordinators-container row justify-content-evenly aling-items-center">
+            <div class="cordinator-box col-5 col-md-4 col-xl-3">
+                <img src="./assets/home/Founder image.png" class="img-fluid">
+                <div class="cordinator-name">Prajapati Maharaj</div>
+            </div>
+            <div class=" cordinator-box col-5 col-md-4 col-xl-3">
+                <img src="./assets/home/Founder image.png" class="img-fluid">
+                <div class="cordinator-name">Prajapati Maharaj</div>
+            </div>
+            <div class=" cordinator-box col-5 col-md-4 col-xl-3">
+                <img src="./assets/home/Founder image.png" class="img-fluid">
+                <div class="cordinator-name">Prajapati Maharaj</div>
+            </div>
+            <div class=" cordinator-box col-5 col-md-4 col-xl-3">
+                <img src="./assets/home/Founder image.png" class="img-fluid">
+                <div class="cordinator-name">Prajapati Maharaj</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials starts -->
+    <section class="testimonials">
+        <h6 class="subheading">What Students Have To Say?</h6>
+        <div class="test-container">
+            <div id="testimonial-decrease" class="navigate-right" style="background-color: grey;pointer-events: all;"><i class="fas fa-chevron-left"></i></div>
+            <div class="t-card">
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p> I think the service is very good, all the facilities are as shown, what's more</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-0</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card">
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p>I feel comfortable and safe when I'm there because I really pay attention to the health protocols that apply</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-1</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card">
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p>The arrangement is cool, what an amazing place</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-2</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card" hidden>
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p>The arrangement is cool, what an amazing place</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-3</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card" hidden>
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p>The arrangement is cool, what an amazing place</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-4</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div class="t-card" hidden>
+                <div class="t-card-top">
+                    <img src="./assets/home/testm/quote.svg" alt="">
+                    <p>The arrangement is cool, what an amazing place</p>
+                </div>
+                <div class="t-card-bottom">
+                    <div class="testimonial-img">
+                        <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                    </div>
+                    <div class="testimonial-name">
+                        <h6>test-5</h6>
+                        <span>Webs Developer at BliBali</span>
+                    </div>
+                </div>
+            </div>
+            <div id="testimonial-increase" class="navigate-right"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </section>
+    <!-- Testimonial ends -->
+    <!-- councelling cell -->
+    <section id="tp_team" class="container">
+        <h6 class="subheading mt-5 mb-5">Councelling Cell</h6>
+        <div class="row team-container justify-content-evenly align-items-center">
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-1.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-2.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+            <div class="col-sm-5 col-lg-4 team-box my-3">
+                <img src="./assets/student_support/student-council/student-council-3.svg">
+                <h4 class="council-name">Ram Prasad, HOD</h4>
+                <h5 class="council-desc">PHD - Gas Dynamics</h5>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!--Footer Section-->
+    <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                    <a class="brand" href="index.html">
+                        <img class="brand-logo-light" src="assets/gni_logo.svg" alt="" >
+                    </a>
+                    <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                    <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
+                </div>
+
+                <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                    <dl id="contact">
+                      <dt>CONTACT</dt>
+                      <br>
+                      <dd>8765768757575</dd>
+                    </dl>
+                    <br>
+                    <dl id="email">
+                      <dt>E-MAIL</dt>
+                      <br>
+                      <dd>ryash1921@gmail.com
+                      </dd>
+                    </dl>
+                    <br>
+                    <dl id="social-media">
+                      <dt>CONNECT US</dt>
+                      <dd><ul class="social_footer_ul">
+                          <br>
+                          <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+                          <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+                          <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+                          </ul></dd>
+                    </dl>
+                </div>
+
+                <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                    <dl>
+                        <dt>IMPORTANT LINKS</dt>
+                        <br>
+                        <a href="#"><dd>Annual Report</dd></a>
+                        <a href="#"><dd>Anti Ragging Squad</dd></a>
+                        <a href="#"><dd>Mandatory Disclosure</dd></a>
+                        <a href="#"><dd>Ragging Free campus</dd></a>
+                        <a href="#"><dd>Eligibility Criteria</dd></a>
+                        <a href="#"><dd>Admission Process</dd></a>
+                        <a href="#"><dd>IT Policy</dd></a>
+                        <a href="#"><dd>NAAC</dd></a>
+                    </dl>
+                </div>
+                
+                <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                    <dl>
+                        <dt>QUICK LINKS</dt>
+                        <br>
+                        <a href="#"><dd>NAAC Links</dd></a>
+                        <a href="#"><dd> www.aicte-india.org/</dd></a>
+                        <a href="#"><dd> www.rtmnuresults.org/</dd></a>
+                        <a href="#"><dd> www.dtemaharashtra.gov.in</dd></a>
+                      </dl>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyright-text">
+        <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved. </span>
+    </section>
+<!-- footer section ends -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>

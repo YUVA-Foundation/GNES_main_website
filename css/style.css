@@ -1610,3 +1610,45 @@ color: var(--text-color);
     margin:0px;
   }
 }
+
+/* ----------------------------------------------PLACEMENT AND RESEARCH CSS-------------------------------------------- */
+.why-prefer-heading{
+  background-color: black;
+  width:65vw;
+  z-index:-1;
+}
+.why-prefer-heading h5{
+  color:white;
+  text-align:left;
+}
+.why-prefer-body{
+  box-shadow:1px 1px 2px 1px lightgrey;
+  position:relative;
+  top:-8px;
+  background-color: white;
+}
+.team-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap:wrap;
+}
+.team-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cordinator-box img{
+width:80%;
+}
+.cordinator-name{
+  background-color: rgba(255,255,255,0.8);
+  color: var(--blue-shade);
+  font-weight: 600;
+  padding:0.5rem 0px;
+  width:80%;
+  text-align: center;
+  position: relative;
+  top:-40px;
+}
