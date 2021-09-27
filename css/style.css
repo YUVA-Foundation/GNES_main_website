@@ -1619,7 +1619,14 @@ td {
 }
 
 /* ----------------------------------------------PLACEMENT AND RESEARCH CSS-------------------------------------------- */
-.why-prefer-heading {
+.header-image{
+  max-width:80vw;
+  margin:0px auto;
+}
+.header-image img{
+  max-width:100%;
+}
+.why-prefer-heading{
   background-color: black;
   width: 65vw;
   z-index: -1;
@@ -1671,4 +1678,54 @@ td {
 .nw {
   box-shadow: 0px 0px 16px rgba(172, 172, 172, 0.25);
   border-radius: 5px;
+}
+.recruiter-box{
+  width:280px;
+}
+.recruiter-name{
+  background-color: var(--blue-shade);
+  color:white;
+  padding:0.3rem 0rem 0.3rem 1rem;
+}
+.companies-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.company-box{
+  width:250px;
+  max-height:250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow:1px 1px 2px 1px lightgrey;
+  padding:0.8rem;
+  margin:1rem 0px;
+}
+
+@media screen and (max-width:600px)
+{
+  .header-image{
+    max-width:90vw;
+  }
+  #vision-college p{
+    font-size:1rem;
+  }
+  #vision-college .sub-wrap-right h3,#vision-college .sub-wrap-left h3{
+    font-size:1rem;
+  }
+  .why-prefer-body p{
+    font-size:1rem;
+  }
+  .team-box{
+    width:50%;
+  }
+  .cordinator-box img{
+    width:100%;
+  }
+  .cordinator-name{
+    width:100%;
+    top:-60px;
+  }
 }
