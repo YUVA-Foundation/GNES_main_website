@@ -1666,7 +1666,7 @@ td {
   position: relative;
   top: -40px;
 }
-/* ----------------------------------------------PLACEMENT AND RESEARCH CSS-------------------------------------------- */
+/* ----------------------------------------------CAREER CSS-------------------------------------------- */
 .new {
   color: #667580;
   font-family: "Lato", sans-serif;
@@ -1679,8 +1679,11 @@ td {
   box-shadow: 0px 0px 16px rgba(172, 172, 172, 0.25);
   border-radius: 5px;
 }
-.recruiter-box {
-  width: 280px;
+
+/* ----------------------------------------------PLACEMENT AND RESEARCH CSS-------------------------------------------- */
+
+.recruiter-box{
+  width:280px;
 }
 .recruiter-name {
   background-color: var(--blue-shade);
