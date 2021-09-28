@@ -1682,8 +1682,8 @@ td {
 
 /* ----------------------------------------------PLACEMENT AND RESEARCH CSS-------------------------------------------- */
 
-.recruiter-box{
-  width:280px;
+.recruiter-box {
+  width: 280px;
 }
 .recruiter-name {
   background-color: var(--blue-shade);
@@ -1747,65 +1747,84 @@ td {
 }
 
 /* ----------------------------------------------Events page-------------------------------------------- */
-.event-box{
+.event-box {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow:1px 1px 2px 1px lightgrey;
-  padding:0px;
-  width:340px;
-  border-radius:4px 4px 0px 0px;
+  box-shadow: 1px 1px 2px 1px lightgrey;
+  padding: 0px;
+  width: 340px;
+  border-radius: 4px 4px 0px 0px;
 }
-.event-box img{
-  margin-bottom:0.8rem;
-  width:100%;
+.event-box img {
+  margin-bottom: 0.8rem;
+  width: 100%;
 }
-.event-box-bottom{
-  width:100%;
-  padding:0.5rem 0px;
+.event-box-bottom {
+  width: 100%;
+  padding: 0.5rem 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
-.event-title{
-  font-size:1.3rem;
-  text-align:center;
-  padding:0.5rem 0px;
+.event-title {
+  font-size: 1.3rem;
+  text-align: center;
+  padding: 0.5rem 0px;
   color: #667580;
 }
-.event-desc{
-  font-size:1rem;
+.event-desc {
+  font-size: 1rem;
 }
-.view-event{
-  padding:0.2rem 2.5rem;
+.view-event {
+  padding: 0.2rem 2.5rem;
   background-color: var(--orange-shade);
-  color:white;
-  font-size:1rem;
-  border:none;
+  color: white;
+  font-size: 1rem;
+  border: none;
 }
-.past-events-container{
+.past-events-container {
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (max-width:600px)
-{
-  .event-box{
-    width:300px;
+@media screen and (max-width: 600px) {
+  .event-box {
+    width: 300px;
   }
-  .past-events-container{
+  .past-events-container {
     justify-content: center;
     align-items: center;
   }
-  .upcoming-events-container{
+  .upcoming-events-container {
     justify-content: center;
     align-items: center;
   }
-  .past-events p{
-    text-align:justify
+  .past-events p {
+    text-align: justify;
   }
 }
-
-
+/* ----------------------------------------------Alumini page-------------------------------------------- */
+.news-container1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.news-card1 {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.news-card1 p {
+  width: 95%;
+  color: #ff4c29;
+  text-align: center;
+}
+.news-card1 img {
+  width: 95%;
+}
