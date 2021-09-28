@@ -1802,9 +1802,20 @@ td {
     justify-content: center;
     align-items: center;
   }
-  .past-events p {
+  .past-events p{
+    text-align:justify
+  }
+  #upcoming-event-container{
     text-align: justify;
   }
+}
+#upcoming-event-date{
+  font-size:1.2rem;
+  color:var(--orange-shade);
+}
+#register-event{
+  display: block;
+  margin:2rem auto 4rem auto;
 }
 /* ----------------------------------------------Alumini page-------------------------------------------- */
 .news-container1 {
