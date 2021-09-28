@@ -1803,4 +1803,9 @@ td {
     justify-content: center;
     align-items: center;
   }
+  .past-events p{
+    text-align:justify
+  }
 }
+
+
