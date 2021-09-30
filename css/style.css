@@ -1851,6 +1851,9 @@ td {
   text-align:left;
   font-size:1.4rem;
 }
+.contact iframe{
+  width:55%;
+}
 .contact-details{
   width:500px;
   display:flex;
@@ -1884,6 +1887,9 @@ td {
   .contact{
     padding:1rem;
     margin-bottom:1rem;
+  }
+  .contact iframe{
+    width:100%;
   }
   .contact-details{
     left:0px;
