@@ -2059,7 +2059,7 @@ td {
   row-gap: 2rem;
 }
 .facilities .facility .lab{
-  width: 581px;
+  width: 35vw;
   height: auto;
   display: flex;
   flex-direction: column;
