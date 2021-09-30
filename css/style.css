@@ -1839,3 +1839,54 @@ td {
 .news-card1 img {
   width: 95%;
 }
+
+/* ----------------------------------------------Contact page-------------------------------------------- */
+.contact{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;;
+  flex-wrap:wrap;
+}
+.contact h2{
+  text-align:left;
+  font-size:1.4rem;
+}
+.contact-details{
+  width:500px;
+  display:flex;
+  flex-direction: column;
+  background-color:white;
+  height:60%;
+  padding: 2rem 3rem;
+  position:relative;
+  left:40px;
+  box-shadow: 1px 1px 2px 1px lightgrey;
+}
+.contact-details p{
+  font-size:1rem;
+}
+.contact-address,.contact-email,.contact-no{
+  font-size:1rem;
+  display: flex;
+  align-items:center;
+  margin:1rem;
+}
+.contact-address i,.contact-email i,.contact-no i{
+  font-size:1.2rem;
+  color:var(--orange-shade);
+}
+.contact-address p,.contact-email p,.contact-no p{
+  margin-left:1rem;
+  margin-bottom:0px;
+}
+@media screen and (max-width:500px)
+{
+  .contact{
+    padding:1rem;
+    margin-bottom:1rem;
+  }
+  .contact-details{
+    left:0px;
+    top:20px;
+  }
+}
