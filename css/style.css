@@ -34,9 +34,23 @@ h2 {
 section {
   margin-bottom: 2rem;
 }
+
 /* Global styling ends */
 
 /* ----------------------------------------------HOME CSS-------------------------------------------- */
+.m-list{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+}
+@media screen and (max-width: 1024px ){
+  .m-list p{
+    font-size: 0.9rem;
+  }
+  
+}
 #bgrd {
   background-color: var(--blue-shade);
 }

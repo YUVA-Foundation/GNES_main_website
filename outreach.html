@@ -12,11 +12,44 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <!-- navbar starts-->
-    <nav class="navbar navbar-expand-xl" id="bgrd">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg" id="bgrd">
         <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: grey; border: none; border-radius: 30px; height: auto; font-size: 1rem;">
+            <img src="./assets/home/Question.svg" alt="" style="width: 20px; height: 20px;">
+            Update
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content" style="background-color: grey; color: white;">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Important Updates</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="m-list">
+                      <p>1. Title of Update</p>
+                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
+                  </div>
+                  <div class="m-list">
+                      <p>1. Title of Update</p>
+                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
+                  </div>
+                  <div class="m-list">
+                      <p>1. Title of Update</p>
+                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn" style="background-color: orangered; color: white;">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal -->
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon "></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav" style="margin: auto;">
@@ -86,16 +119,6 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Placements
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Research
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="#">Action</a></li>
