@@ -1895,4 +1895,158 @@ td {
     left:0px;
     top:20px;
   }
+
+/* Dept */
+#dept-info{
+  width: 80%;
+  margin: auto;
+  padding: 5rem 0;
 }
+
+#dept-tabs{
+  padding: 3rem 0;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 5rem;
+}
+
+#dept-tabs .div1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+  column-gap: 4rem;
+}
+
+#dept-tabs .div2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+}
+#dept-tabs .div2 .tabs{
+  justify-self: center;
+}
+#dept-tabs .tabs{
+  cursor: pointer;
+  background-color: var(--blue-shade);
+  border-radius: 30px;
+  width: 318px;
+  height: auto;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#dept-tabs .tabs:hover{
+  background-color: var(--orange-shade);
+}
+#dept-tabs .tabs p{
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:1024px)
+{
+  #dept-tabs .div1{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* specific computer dept  */
+#dept{
+  width: 80%;
+  margin: auto;
+}
+#dept .dept_img{
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+#dept .dept_intro{
+  padding: 2rem 0;
+}
+
+#dept .dept_prog .prog_cont{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+#dept .dept_prog .prog_cont .cont{
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 8fr 8fr 1fr;
+}
+
+#dept .dept_prog .prog_cont .cont .s2,.s3{
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--blue-shade);
+  display: flex;
+  align-items: center;
+}
+
+#dept .dept_prog .prog_cont .cont .s1,.s4{
+  background-color: gainsboro;
+  height: 275px;
+  display: flex;
+  align-items: center;
+  padding: 0 0 0 0.5rem;
+}
+
+.career_pros p{
+  text-align: center;
+}
+@media screen and (max-width: 950px){
+  #dept .dept_prog .prog_cont .cont .s1,.s4{
+    height: auto;
+  }
+}
+
+@media screen and (max-width:540px) {
+  #dept .dept_prog .prog_cont{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+}
+
+#dept .prog_offered .d-strip{
+  width: 100%;
+  background-color: var(--orange-shade);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem 0.5rem 1rem;
+  margin: 1rem 0;
+}
+
+#dept .prog_offered .d-strip p{
+  color: white;
+}
+
+#dept .prog_offered .d-strip a{
+  color: white;
+  text-decoration: none;
+}
+
+#dept .faculty .faculty-card .fac{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* #dept .faculty .faculty-card .fac p{
+  text-align: center;
+} */
+
+

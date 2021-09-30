@@ -134,3 +134,21 @@ testimonial_slider_left.addEventListener("click",function()
     testimonialCarouselDecrease(--testimonialCounter,testimonialCounter+1,testimonialCounter+2);
 });
 
+// Achievers carousel
+
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+        <!-- owl carousel -->
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <!-------------------Navbar------------------->
+        <nav class="navbar navbar-expand-xl" id="bgrd">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="margin: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Admission
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Facilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Student Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Placements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Research
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Outreach
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Alumni
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!------------------Navbar end-------------------->
+        <section id="dept">
+            <h2 class="heading">Computer Department<span>____</span></h2>
+            <img src="./assets/home//hero_bg.png" alt="" class="dept_img">
+            
+            <section class="dept_intro">
+                <p>
+                    The Department of Computer Science & Engineering established in 2008, is well-equipped with state-of-the-art infrastructure. The state of art infrastructure includes latest configuration desktops organized in five different laboratories.
+                    <br><br>
+                    There is an internet facility and inter-connected by a 24 hours server. The Department has a distinction of consistently achieving above 95% results in the final year. Students are encouraged to appear in GATE, CAT, GRE and other competitive examinations which has resulted in increasing number of students clearing these exams.
+                </p>
+            </section>
+    
+            <section class="dept_aim">
+                <h6 class="subheading">Aim</h6>
+                <p>The goals of the computer science and Engineering  department are to prepare students for graduate training in some specialized area of computer science, to prepare students for jobs in industry, business or government, and to provide support courses for students in engineering, mathematics and other fields requiring computing skills</p>
+            </section>
+
+            <section class="dept_prog">
+                <h6 class="subheading">
+                    Program Educational Objectives
+                </h6>
+                <div class="prog_cont">
+                    <div class="cont">
+                        <div class="s1">
+                            <p style="color: black; transform: rotate(-90deg);">PEO1</p>
+                        </div>
+                        <div class="s2">
+                            <p>To provide the imperatives knowledge of science and engineering concepts fundamental for a computer professional and equip the proficiency of mathematical foundations and algorithmic principles for competent problem solving ability.</p>
+                        </div>
+                        <div class="s3" style="background: #FF4C29;">
+                            <p> To provide an educational foundation that prepares computer professional for excellence, leadership roles along diverse career paths with encouragement to professional ethics and active participation needed for a successful career.</p>
+                        </div>
+                        <div class="s4">
+                            <p style="color: black; transform: rotate(90deg);">PEO1</p>
+                        </div>
+                    </div>
+                    <div class="cont">
+                        <div class="s1">
+                            <p style="color: black; transform: rotate(-90deg);">PEO1</p>
+                        </div>
+                        <div class="s2" style="background: #FF4C29;">
+                            <p> To exhibit leadership capability, triggering social and economical commitment and inculcate community services and protect environment.</p>
+                        </div>
+                        <div class="s3">
+                            <p>To inculcate ability in creativity & design of computer support systems and impart knowledge and skills for analyze, design, test and implement various software applications.</p>
+                        </div>
+                        <div class="s4">
+                            <p style="color: black; transform: rotate(90deg);">PEO1</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="prog_offered">
+                <h6 class="subheading">
+                    Programs Offered
+                </h6>
+                <div class="d-strip">
+                    <p>B.E. – Automobile Engineering – 4 Years  (Established in 2018)</p>
+                    <a href="#">Download</a>
+                </div>
+                <div class="d-strip">
+                    <p>B.E. – Automobile Engineering – 4 Years  (Established in 2018)</p>
+                    <a href="#">Download</a>
+                </div>
+            </section>
+            
+            <!-- <section class="faculty">
+                <h6 class="subheading">Faculty</h6>
+                <div class="faculty-container">
+                    <div class="owl-carousel owl-theme faculty-card">
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (2).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (3).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (4).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <section class="faculty">
+                <h6 class="subheading">
+                    Faculty
+                </h6>
+                <div class="owl-carousel owl-theme faculty-card stop-carousel">
+                    <div class="f-card">
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (3).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                        <div class="fac">
+                            <img src="./assets/dept/faculty/Ellipse 43 (4).png" alt="">
+                            <h5>Ram Prasad, HOD</h5>
+                            <p style="font-weight: 200; font-size: 20px;">PHD - Gas dynamics, 
+                                ME thermal Engineering,
+                                Member of Syllabus Sub Committee in Anna University</p>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+        
+
+            <section class="career_pros">
+                <h6 class="subheading">
+                    Career prospect
+                </h6>
+                <p>There is large employment potential for Computer Science & Engineering graduates in all sectors of industry. Computer Science Engineers have numerous career opportunities in areas like Software Industries, IT Enabled Service firms, Research Sector and Communication industry. In private sector, they can work in top firms like Accenture, Infosys, TCS, IBM India, CapGemini, Congnizant, Amdocs, etc. In Government sector they can operate in some of the reputed firms like NTPC, ONGC, ISRO, Banking Sector, Communication Industry like BSNL, MTNL etc. They have a good career scope abroad too where they can work in reputed companies like Google, Yahoo, Philips, Samsung, Nikon, Acer, etc. They can seek opportunities to work in profiles like Software Developer, Application Developer, Enterprise Architect, Data Analyst, Database Administrator, CGI Special effect developers, Client Server Systems Manager etc. There is also good employment potential at local software industries based in Nagpur like: Global Logic Pvt Ltd, Persistent Systems, Infocepts etc.</p>
+            </section>
+        </section>
+        
+        <!--Footer Section-->
+        <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                        <a class="brand" href="index.html">
+                            <img class="brand-logo-light" src="assets/gni_logo.svg" alt="" >
+                        </a>
+                        <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                        <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                        <dl id="contact">
+                        <dt>CONTACT</dt>
+                        <br>
+                        <dd>8765768757575</dd>
+                        </dl>
+                        <br>
+                        <dl id="email">
+                        <dt>E-MAIL</dt>
+                        <br>
+                        <dd>ryash1921@gmail.com
+                        </dd>
+                        </dl>
+                        <br>
+                        <dl id="social-media">
+                        <dt>CONNECT US</dt>
+                        <dd><ul class="social_footer_ul">
+                            <br>
+                            <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+                            </ul></dd>
+                        </dl>
+                    </div>
+
+                    <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                        <dl>
+                            <dt>IMPORTANT LINKS</dt>
+                            <br>
+                            <a href="#"><dd>Annual Report</dd></a>
+                            <a href="#"><dd>Anti Ragging Squad</dd></a>
+                            <a href="#"><dd>Mandatory Disclosure</dd></a>
+                            <a href="#"><dd>Ragging Free campus</dd></a>
+                            <a href="#"><dd>Eligibility Criteria</dd></a>
+                            <a href="#"><dd>Admission Process</dd></a>
+                            <a href="#"><dd>IT Policy</dd></a>
+                            <a href="#"><dd>NAAC</dd></a>
+                        </dl>
+                    </div>
+                    
+                    <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                        <dl>
+                            <dt>QUICK LINKS</dt>
+                            <br>
+                            <a href="#"><dd>NAAC Links</dd></a>
+                            <a href="#"><dd> www.aicte-india.org/</dd></a>
+                            <a href="#"><dd> www.rtmnuresults.org/</dd></a>
+                            <a href="#"><dd> www.dtemaharashtra.gov.in</dd></a>
+                        </dl>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <section id="copyright-text">
+            <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved. </span>
+        </section>
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+        <!-- owl carousel -->
+
+        
+        <!-- <script src="./js/home.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
+    </body>
+</html>

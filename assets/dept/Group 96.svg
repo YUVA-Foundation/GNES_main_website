@@ -1,0 +1,29 @@
+<svg width="107" height="95" viewBox="0 0 107 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="37.6274" y="29.4999" width="30" height="37" rx="15" stroke="white" stroke-width="3"/>
+<rect x="10.6274" y="43.4999" width="20" height="25" rx="10" stroke="white" stroke-width="3"/>
+<rect x="-1.5" y="1.5" width="20" height="25" rx="10" transform="matrix(-1 0 0 1 94.5068 41.9999)" stroke="white" stroke-width="3"/>
+<path d="M37.3599 43.9794C47.7505 43.6513 52.2924 41.7197 58.4755 35.6611" stroke="white" stroke-width="3"/>
+<path d="M9.96191 53.1454C17.2093 52.9166 18.8148 53.7257 23.1274 49.4999" stroke="white" stroke-width="3"/>
+<path d="M96.6724 53.1454C89.425 52.9166 88.9401 52.7257 84.6274 48.4999" stroke="white" stroke-width="3"/>
+<path d="M53.5164 39.2914C58.9243 42.806 62.0667 43.7723 67.9307 43.0989" stroke="white" stroke-width="3"/>
+<path d="M21.231 49.8759C25.0029 52.3273 27.1948 53.0012 31.2848 52.5316" stroke="white" stroke-width="3"/>
+<path d="M85.4033 49.8759C81.6314 52.3273 79.4395 53.0012 75.3495 52.5316" stroke="white" stroke-width="3"/>
+<path d="M48.1274 65.9999V69.857L51.9846 86.9999L57.1274 69.857V65.9999" stroke="white" stroke-width="3"/>
+<path d="M18.1274 67.9999V70.204L20.6989 79.9999L24.1274 70.204V67.9999" stroke="white" stroke-width="3"/>
+<path d="M88.5068 67.9999V70.204L85.9354 79.9999L82.5068 70.204V67.9999" stroke="white" stroke-width="3"/>
+<path d="M57.7637 69.2654C69.3818 70.3716 75.3288 77.3659 75.7351 91.2324" stroke="white" stroke-width="3"/>
+<path d="M24.8907 70.7817C32.9942 71.5532 34.6274 74.9998 34.6274 74.9998" stroke="white" stroke-width="3"/>
+<path d="M81.7436 70.7817C73.6401 71.5532 72.0069 74.9998 72.0069 74.9998" stroke="white" stroke-width="3"/>
+<path d="M47.9724 69.2654C36.3543 70.3716 30.4073 77.3659 30.001 91.2324" stroke="white" stroke-width="3"/>
+<path d="M17.3641 70.782C9.26063 71.5536 4.9108 76.3281 4.62744 85.9999" stroke="white" stroke-width="3"/>
+<path d="M89.2702 70.782C97.3736 71.5536 101.723 76.3281 102.007 85.9999" stroke="white" stroke-width="3"/>
+<line x1="35.5437" y1="74.6018" x2="52.9497" y2="91.7358" stroke="white" stroke-width="3"/>
+<line y1="-1.5" x2="24.4242" y2="-1.5" transform="matrix(-0.712652 0.701517 0.701517 0.712652 69.9231 75.1215)" stroke="white" stroke-width="3"/>
+<line x1="32.2309" y1="9.27425" x2="40.4018" y2="19.8964" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="14.9012" y2="-1.5" transform="matrix(-0.609711 0.792624 0.792624 0.609711 76.1274 8.99988)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="53.6274" y1="15.2006" x2="53.6274" y2="1.79934" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<circle cx="53.6274" cy="20.4999" r="1.5" fill="white"/>
+<line x1="5.12744" y1="84.4999" x2="30.1274" y2="84.4999" stroke="white" stroke-width="3"/>
+<line y1="-1.5" x2="25" y2="-1.5" transform="matrix(-1 0 0 1 101.507 85.9999)" stroke="white" stroke-width="3"/>
+<line x1="78.1274" y1="92.4999" x2="27.1274" y2="92.4999" stroke="white" stroke-width="3"/>
+</svg>
