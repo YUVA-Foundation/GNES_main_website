@@ -1546,7 +1546,7 @@ td {
   font-size: 1.2rem;
   margin-top: 0.5rem;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   #club-navigate-right,
   #club-navigate-left,
   #service-navigate-right,
@@ -1569,7 +1569,7 @@ td {
   }
   .event-desc {
     flex: 1;
-    margin: 0px;
+    margin: 0px 2rem;
     text-align: justify;
   }
   .event-container img {
