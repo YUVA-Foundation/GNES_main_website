@@ -1729,7 +1729,17 @@ td {
   padding: 0.8rem;
   margin: 1rem 0px;
 }
-
+@media screen and (max-width:600px)
+{
+  .navigate-left, .navigate-right{
+    width:100%;
+    text-align:center;
+    margin:0px;
+  }
+  .company-box{
+    width:80%;
+  }
+}
 @media screen and (max-width: 600px) {
   .header-image {
     max-width: 90vw;
