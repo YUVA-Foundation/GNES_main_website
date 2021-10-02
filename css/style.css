@@ -1635,7 +1635,7 @@ td {
   margin-bottom: 1rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .other-facility-box {
     margin: 0px;
   }
