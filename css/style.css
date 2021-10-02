@@ -635,6 +635,47 @@ h6 {
 }
 /* placement section */
 
+/* partners */
+.partners{
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 1rem;
+}
+.partners .item {
+  margin: 15px 0 15px 7px;
+  padding: 110px 50px;
+  width: 360px;
+  height: 337px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 20px 0px #0000001A;   
+  }
+  @media screen and (max-width:780px){
+    .partners .item{
+      width: 300px;
+      height:310px;
+
+    }
+  }
+  @media screen and (max-width:540px){
+    .partners .item{
+      width: 270px;
+      height:290px;
+
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .partners .item{
+      width: 242px;
+      height:255px;
+      padding: 90px 30px;
+
+    }
+  }
+  /* partners end */
+
 /* campus section */
 .campus-life p {
   padding: 1rem 2.5rem;

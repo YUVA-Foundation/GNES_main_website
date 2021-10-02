@@ -139,16 +139,18 @@ testimonial_slider_left.addEventListener("click",function()
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    nav:false,
     responsive:{
         0:{
             items:1
         },
-        600:{
-            items:3
+        750:{
+            items:2
         },
-        1000:{
-            items:5
+        1025:{
+            items:3
         }
     }
 })
