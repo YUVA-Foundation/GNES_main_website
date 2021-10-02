@@ -471,7 +471,7 @@ h6 {
 /* gallery-section */
 
 /* testimonial section */
-.test-container {
+/* .test-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -545,8 +545,57 @@ h6 {
   color: white;
   border-radius: 50%;
   text-align: center;
+} */
+.testm{
+  width: 95%;
+  height: auto;
+  margin: auto;
+}
+.testm .test-card{
+  width: 395px;
+  height: 258px;
+  background-color: var(--blue-shade);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+.testm .test-card .t-card-top{
+  width:85%;
+}
+.testm .test-card .t-card-top img {
+  width:64.59px;
+  height: 44.73px;
+}
+
+.testm .test-card .t-card-top p{
+  color: white;
+  font-size: 1rem;
+  position: relative;
+  top: -1rem;
+  left: 1rem;
+}
+
+.testm .test-card .t-card-bottom{
+ width: 90%;
+ margin: auto;
+ display: flex; 
+}
+.testm .test-card .t-card-bottom .testimonial-name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+.testm .test-card .t-card-bottom .testimonial-img img{
+  width: 45px;
+  height: 45px;
+}
+
+.testm .test-card .t-card-bottom .testimonial-name span{
+  color: white;
+}
 /* testimonial section */
 
 /* more link */
