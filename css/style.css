@@ -1284,16 +1284,11 @@ td {
   margin: 1.5rem 2rem;
   width: 400px;
   border-radius: 10px;
-  background-color: rgba(211, 211, 211, 0.4);
-  color: rgba(0, 0, 0, 0.7);
-}
-#ug-card:hover {
-  background-color: var(--orange-shade);
-  color: white;
-}
-#pg-card:hover {
   background-color: var(--blue-shade);
-  color: white;
+  color:white;
+}
+.g-card:hover {
+  background-color: var(--orange-shade);
 }
 .accordion-button {
   background-color: rgba(51, 71, 86, 0.8);
@@ -1316,6 +1311,13 @@ td {
   box-shadow: 1px 1px 2px 1px lightgrey;
 }
 
+.accordion-button:not(.collapsed){
+  color:white;
+  background-color: var(--orange-shade);
+}
+.accordion-button::after{
+  color:white;
+}
 /* ----------------------------------------------GRADUATION BE ADMISSION CSS-------------------------------------------- */
 
 .grad h4 {
