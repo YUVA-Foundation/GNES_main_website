@@ -1986,11 +1986,12 @@ td {
   margin-left:1rem;
   margin-bottom:0px;
 }
-@media screen and (max-width:500px)
+@media screen and (max-width:600px)
 {
   .contact{
     padding:1rem;
     margin-bottom:1rem;
+    flex-direction: column-reverse;
   }
   .contact iframe{
     width:100%;
@@ -1998,6 +1999,10 @@ td {
   .contact-details{
     left:0px;
     top:20px;
+    width:inherit;
+  }
+  #contact-map{
+    margin-top:2rem;
   }
 }
 /* Dept */
