@@ -136,7 +136,26 @@ testimonial_slider_left.addEventListener("click",function()
 
 // Achievers carousel
 
-$('.owl-carousel').owlCarousel({
+$('.testm').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:3000,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        750:{
+            items:2
+        },
+        1024:{
+            items:3
+        }
+    }
+})
+
+$('.partners').owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
