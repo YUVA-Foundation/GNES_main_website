@@ -551,6 +551,7 @@ h6 {
   height: auto;
   margin: auto;
 }
+
 .testm .test-card{
   width: 395px;
   height: 258px;
@@ -1178,7 +1179,6 @@ dd {
 
 /*About Institutions*/
 .about-institution {
-  background-color: rgb(219, 218, 218);
   padding: 20px 40px;
   margin-bottom: 0px;
 }
@@ -1241,9 +1241,54 @@ dd {
 }
 
 /*Awards and Achievements*/
+#awards .awards {
+  width: 85%;
+  margin: auto;
+}
+#awards .awards .aw-card{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
 
+#awards .awards .aw-card span{
+  margin-top: 1rem;
+}
 /*Administration*/
+#admin .dc{
+  width: 90%;
+  margin: auto;
+}
+#admin .dc .dc-box{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+#admin .dc .dc-box img{
+  width: 168px;
+  height: 191px;
+  border-radius: 5px;
+}
+.dc-box .owl-active .active{
+  margin: 0;
+}
+#admin .dc .dc-box .name{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
 
+#admin .dc .dc-box .name span{
+  position: absolute;
+  top: 1.5rem;
+}
 /*Objective of Insititutions*/
 .wrapper-11 {
   display: grid;
