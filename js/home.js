@@ -82,58 +82,6 @@ highlight_slider_right.addEventListener("click",function(){
 
 // ************************************************* TESTIMONIAL CAROUSEL ***************************************
 
-function testimonialCarouselIncrease(first,second,third)
-{
-    console.log(first,second,third);
-    if(first===testimonialImages.length-3)
-    {
-        testimonial_slider_right.style.pointerEvents="none";
-        testimonial_slider_right.style.backgroundColor="grey";
-    }
-
-    for(let i=0;i<testimonialImages.length;i++)
-    {
-        testimonialImages[i].style.display="none";
-    }
-
-    testimonialImages[first].style.display="flex";
-    testimonialImages[second].style.display="flex";
-    testimonialImages[third].style.display="flex";
-}
-function testimonialCarouselDecrease(first,second,third)
-{
-    console.log(first,second,third);
-    if(first===0)
-    {
-        testimonial_slider_left.style.pointerEvents="none";
-        testimonial_slider_left.style.backgroundColor="grey";
-    }
-
-    for(let i=0;i<testimonialImages.length;i++)
-    {
-        testimonialImages[i].style.display="none";
-    }
-
-    testimonialImages[first].style.display="flex";
-    testimonialImages[second].style.display="flex";
-    testimonialImages[third].style.display="flex";
-}
-
-testimonialCarouselIncrease(testimonialCounter,testimonialCounter+1,testimonialCounter+2);
-
-testimonial_slider_right.addEventListener("click",function()
-{
-    testimonial_slider_left.style.pointerEvents="all";
-    testimonial_slider_left.style.backgroundColor="#334756";
-    testimonialCarouselIncrease(++testimonialCounter,testimonialCounter+1,testimonialCounter+2);
-});
-testimonial_slider_left.addEventListener("click",function()
-{
-    testimonial_slider_right.style.pointerEvents="all";
-    testimonial_slider_right.style.backgroundColor="#334756";
-    testimonialCarouselDecrease(--testimonialCounter,testimonialCounter+1,testimonialCounter+2);
-});
-
 // Achievers carousel
 
 $('.testm').owlCarousel({
