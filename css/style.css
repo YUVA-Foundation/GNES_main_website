@@ -2261,3 +2261,9 @@ td {
   opacity: 1;
   top: 0;
 }
+
+#downloads{
+  width: 95%;
+  margin: auto;
+  padding: 0 4%;
+}
