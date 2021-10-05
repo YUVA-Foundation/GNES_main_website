@@ -1927,7 +1927,7 @@ td {
   flex-wrap: wrap;
 }
 .news-card1 {
-  margin: 1rem;
+  background-color: #015198;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1940,6 +1940,16 @@ td {
 }
 .news-card1 img {
   width: 95%;
+}
+
+.alumni{
+  width: 95%;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.alumni .ohead{
+  margin-left: 5rem;
 }
 
 /* ----------------------------------------------Contact page-------------------------------------------- */
