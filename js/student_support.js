@@ -1,0 +1,18 @@
+$('.service').owlCarousel({
+    loop:true,
+    margin:0,
+    autoplay:true,
+    autoplayTimeout:3000,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        750:{
+            items:1
+        },
+        1025:{
+            items:1
+        }
+    }
+})

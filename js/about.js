@@ -20,7 +20,7 @@ $('.dc').owlCarousel({
 $('.awards').owlCarousel({
     loop:true,
     margin:0,
-    autoplay:false,
+    autoplay:true,
     autoplayTimeout:3000,
     nav:false,
     responsive:{

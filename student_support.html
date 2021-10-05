@@ -10,6 +10,9 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 </head>
 <body>
     <!--navbar-->
@@ -166,34 +169,55 @@
         <h2 class="heading">Student Support & Events<span>____</span></h2>
     </section>
     <!-- Heading Ends-->
-
-    <!-- Clubs section carousel -->
-    <section id="clubs">
-        <h6 class="subheading mb-5">Clubs</h6>
-        <div class="clubs-container">
-            <div id="club-navigate-left"><i class="fas fa-chevron-left"></i></div>
-            <div class="club-box">
-                <img src="./assets/student_support/clubs.svg">
-                <h5 class="club-name">Club Name</h5>
-                <p class="club-desc">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+    <!-- Clubs -->
+    <!-- awards class is used here to apply styling and js file of awards -->
+    <section id="awards">
+        <h6 class="subheading">Clubs</h6>
+        <section class="owl-carousel owl-theme awards">
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name"style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
             </div>
-            <div class="club-box">
-                <img src="./assets/student_support/clubs.svg">
-                <h5 class="club-name">Club Name</h5>
-                <p class="club-desc">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
             </div>
-            <div class="club-box" hidden>
-                <img src="./assets/student_support/clubs.svg">
-                <h5 class="club-name">Club Name</h5>
-                <p class="club-desc">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
             </div>
-            <div class="club-box" hidden>
-                <img src="./assets/student_support/clubs.svg">
-                <h5 class="club-name">Club Name</h5>
-                <p class="club-desc">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
             </div>
-            <div id="club-navigate-right"><i class="fas fa-chevron-right"></i></div>
-        </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;" >Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Club Name</h5>
+                <p style="text-align: center;">Description of the club. knowledge and skills for analyze, design, test and implement various software applications.</p>
+            </div>
+            
+        </section>
     </section>
 
     <!-- Events section -->
@@ -233,11 +257,6 @@
                 <h4 class="council-name">Ram Prasad, HOD</h4>
                 <h5 class="council-desc">PHD - Gas Dynamics</h5>
             </div>
-            <div class="circles">
-                <div class="active"></div>
-                <div></div>
-                <div></div>
-            </div>
         </div>
     </section>
     <!-- Student council ends -->
@@ -266,42 +285,53 @@
                 <h4 class="council-name">Ram Prasad, HOD</h4>
                 <h5 class="council-desc">PHD - Gas Dynamics</h5>
             </div>
-            <div class="circles">
-                <div class="active"></div>
-                <div></div>
-                <div></div>
-            </div>
         </div>
     </section>
     <!-- Academic experts end -->
 
     <!-- Student support services starts -->
-    <section id="student-support-services">
-        <h6 class="subheading mb-lg-1 mb-0">Student Support Services</h6>
-        <div class="services-container">
-            <div id="service-navigate-left"><i class="fas fa-chevron-left"></i></div>
-            <div class="service-box">
-                <img src="./assets/student_support/clubs.svg">
-                <h4 class="service-name">Anti-Ragging</h4>
-                <h5 class="service-desc">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</h5>
+   
+    <section id="service">
+        <h6 class="subheading">Student Support Services</h6>
+        <section class="owl-carousel owl-theme service">
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
             </div>
-            <div class="service-box" hidden>
-                <img src="./assets/student_support/clubs.svg">
-                <h4 class="service-name">Anti-Ragging</h4>
-                <h5 class="service-desc">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</h5>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
             </div>
-            <div class="service-box" hidden>
-                <img src="./assets/student_support/clubs.svg">
-                <h4 class="service-name">Anti-Ragging</h4>
-                <h5 class="service-desc">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</h5>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
             </div>
-            <div id="service-navigate-right"><i class="fas fa-chevron-right"></i></div>
-        </div>
-        <div class="circles" style="margin-top:-30px;">
-            <div class="active"></div>
-            <div></div>
-            <div></div>
-        </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;" >Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            <div class="sv-card">
+                <div class="sv-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem;">Anti-Ragging</h5>
+                <p style="text-align: center;">Anti-Ragging Committee comprises of 21 members and a few student representatives. This committee helps in maintaining a ragging-free campus so that students enjoy their stay in the campus. The college can proudly say that there has been no ragging incident in the past few years.</p>
+            </div>
+            
+            
+        </section>
     </section>
     <!-- Student support services end -->
 
@@ -377,7 +407,12 @@
         <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved. </span>
     </section>
 <!-- footer section ends -->
+<script src="./js/Jquery-3.5.1.min.js"></script>
 
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="js/student_support.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
 </body>
 </html>
