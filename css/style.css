@@ -13,7 +13,7 @@
   --footer-head-text: #015198;
   --footer-background: #a9fffa4f;
 }
-p {
+p,li {
   font-family: "Lato", sans-serif;
   color: var(--text-color);
   font-weight: 400;
@@ -2280,3 +2280,8 @@ td {
   margin-bottom: 1rem;
 }
 
+/* ncc */
+.ncc{
+  width: 87%;
+  margin: auto;
+}
