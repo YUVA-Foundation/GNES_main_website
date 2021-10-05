@@ -1664,10 +1664,13 @@ td {
   margin: 1.5rem 2rem;
   width: 300px;
   border-radius: 10px;
-  background-color: rgba(211, 211, 211, 0.4);
-  color: rgba(0, 0, 0, 0.7);
+  background-color: var(--blue-shade);
+  color: white;
 }
-
+.go-card:hover{
+  cursor: pointer;
+  background-color: var(--orange-shade);
+}
 /* ----------------------------------------------NATIONAL CADET CSS-------------------------------------------- */
 #admission ol .list {
   margin-left: 20px;
