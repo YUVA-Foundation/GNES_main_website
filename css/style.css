@@ -2261,9 +2261,22 @@ td {
   opacity: 1;
   top: 0;
 }
-
+/*-------------------------------- downloads-------------------- */
 #downloads{
   width: 95%;
   margin: auto;
   padding: 0 4%;
 }
+
+/* about institute */
+.abtinsti{
+  width: 93%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.abtinsti-text h4{
+  color: var(--blue-shade);
+  margin-bottom: 1rem;
+}
+
