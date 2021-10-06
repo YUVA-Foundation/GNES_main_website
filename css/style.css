@@ -1826,36 +1826,40 @@ td {
 }
 
 /* ----------------------------------------------Events page-------------------------------------------- */
-.event-box {
-  display: flex;
+.upcoming-events{
+  /* background:red; */
+  padding:1rem;
+}
+.upcoming-events .subheading{
+  margin:0px;
+  text-align: left;
+  margin-bottom:1rem;
+}
+.upcoming-event-box{
+  display:flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  box-shadow: 1px 1px 2px 1px lightgrey;
-  padding: 0px;
-  width: 340px;
-  border-radius: 4px 4px 0px 0px;
+  align-items: flex-start;
+  height:150px;
+  margin:1rem 0rem;
+  /* background: yellow; */
 }
-.event-box img {
-  margin-bottom: 0.8rem;
-  width: 100%;
+.upcoming-event-box img{
+  width:12rem;
+  margin-top:0.2rem;
 }
-.event-box-bottom {
-  width: 100%;
-  padding: 0.5rem 0px;
+.upcoming-event-desc,.past-event-desc{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1rem;
+  flex-direction: column;
+  margin-left:1rem;
 }
-.event-title {
-  font-size: 1.3rem;
-  text-align: center;
-  padding: 0.5rem 0px;
-  color: #667580;
+.upcoming-event-title{
+  text-align:left;
+  font-size:1rem;
+  margin-bottom:0px;
 }
-.event-desc {
-  font-size: 1rem;
+.upcoming-event-desc p{
+  font-size:0.8rem;
+  margin:0px;
 }
 .view-event {
   padding: 0.2rem 2.5rem;
@@ -1864,38 +1868,60 @@ td {
   font-size: 1rem;
   border: none;
 }
-.past-events-container {
-  justify-content: space-between;
-  align-items: center;
+.upcoming-event-box-bottom,.past-event-box-bottom{
+  display:flex;
+  flex-direction: column-reverse;
+  align-items:flex-start;
+  /* margin-top:-15px; */
+}
+.upcoming-event-date{
+  color:black;
+  font-size:0.8rem;
 }
 
-@media screen and (max-width: 600px) {
-  .event-box {
-    width: 300px;
-  }
-  .past-events-container {
-    justify-content: center;
-    align-items: center;
-  }
-  .upcoming-events-container {
-    justify-content: center;
-    align-items: center;
-  }
-  .past-events p{
-    text-align:justify
-  }
-  #upcoming-event-container{
-    text-align: justify;
-  }
+.past-events .subheading{
+  margin:0px;
+  text-align:left;
+  margin-bottom:1rem;
 }
-#upcoming-event-date{
-  font-size:1.2rem;
-  color:var(--orange-shade);
+.past-events{
+  /* background:yellow; */
+  padding:1rem;
 }
-#register-event{
+.past-event-date{
+  color:black;
+}
+.past-event-box{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin:1rem 0rem;
+  box-shadow:1px 1px 2px 2px lightgrey;
+  padding:0px;
+}
+.past-event-img img{
   display: block;
-  margin:2rem auto 4rem auto;
+  width:32rem;
 }
+.past-event-desc{
+  padding:1rem;
+}
+
+@media screen and (max-width:900px)
+{
+  .past-event-box{
+    flex-direction: column;
+    width:320px;
+    margin:1rem;
+  }
+  .past-event-image img{
+    width:30%;
+  }
+  .past-event-desc{
+    width:100%;
+  }
+}
+
 /* ----------------------------------------------Alumini page-------------------------------------------- */
 .news-container1 {
   display: flex;

@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body style="background-color: rgba(211, 211, 211,0.1);">
     <!--navbar-->
     <nav class="navbar navbar-expand-xl" id="bgrd">
         <div class="container-fluid">
@@ -164,96 +164,104 @@
     <!------------------Navbar end-------------------->
 
     <!-- Events section starts-->
-    <section id="upcoming-events" class="container">
-        <h2 class="heading mb-5">Events<span>____</span></h2>
-        <h6 class="subheading my-5">Upcoming events</h6>
-        <div class="upcoming-events-container row align-items-center">
-            <div class="event-box col-8 col-md-5 col-lg-4 m-2">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
+    <section id="event-container" class="container-fluid">
+        <h2 class="heading">Events<span>____</span></h2>
+        <div class="row justify-content-evenly">
+            <div class="col-sm-10 col-11 col-lg-3 upcoming-events" >
+                <h6 class="subheading">Upcoming events</h6>
+                <div class="upcoming-events-container row align-items-center">
+                    <div class="upcoming-event-box col-12">
+                        <img src="./assets/events/event1.svg" class="img-fluid">
+                        <div class="upcoming-event-desc">
+                            <h4 class="upcoming-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event.</p>
+                            <div class="upcoming-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="upcoming-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="upcoming-event-box col-12">
+                        <img src="./assets/events/event1.svg" class="img-fluid">
+                        <div class="upcoming-event-desc">
+                            <h4 class="upcoming-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event.</p>
+                            <div class="upcoming-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="upcoming-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 m-2">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
+
+            <div class="col-11 col-lg-8 past-events">
+                <h6 class="subheading">Past events</h6>
+                <div class="past-events-container row px-4 align-items-center justify-content-evenly">
+                    <div class="past-event-box col-12">
+                        <div class="past-event-img">
+                            <img src="./assets/events/event1.svg" class="img-fluid">
+                        </div>
+                        <div class="past-event-desc">
+                            <h4 class="past-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event and stuff and all is there in the event and stuff.</p>
+                            <div class="past-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="past-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-box col-12">
+                        <div class="past-event-img">
+                            <img src="./assets/events/event1.svg" class="img-fluid">
+                        </div>
+                        <div class="past-event-desc">
+                            <h4 class="past-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event and stuff and all is there in the event and stuff.</p>
+                            <div class="past-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="past-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-box col-12">
+                        <div class="past-event-img">
+                            <img src="./assets/events/event1.svg" class="img-fluid">
+                        </div>
+                        <div class="past-event-desc">
+                            <h4 class="past-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event and stuff and all is there in the event and stuff.</p>
+                            <div class="past-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="past-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="past-event-box col-12">
+                        <div class="past-event-img">
+                            <img src="./assets/events/event1.svg" class="img-fluid">
+                        </div>
+                        <div class="past-event-desc">
+                            <h4 class="past-event-title">Event Title</h4>
+                            <p>Some brief about what is all is there in the event and stuff and all is there in the event and stuff.</p>
+                            <div class="past-event-box-bottom">
+                                <button class="view-event">View</button>
+                                <h6 class="past-event-date">On 2 Dec,2020</h6>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+        </div>   
     </section>
     <!-- Event section ends -->
 
-    <!-- past event starts -->
-    <section id="past-events" class="container">
-        <h6 class="subheading my-5">Past events</h6>
-        <div class="past-events-container row">
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-            <div class="event-box col-8 col-md-5 col-lg-4 mx-2 my-4">
-                <img src="./assets/events/event1.svg" class="img-fluid">
-                <h4 class="event-title">Event Title</h4>
-                <p class="event-desc px-3">Some brief about what is all is there in the event and stuff what is all is there in the event and stuff</p>
-                <div class="event-box-bottom px-3">
-                    <button class="view-event">View</button>
-                    <h6 class="event-date">On 2 Dec,2020</h6>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- past event ends -->
-
-    
-    <!--Footer Section-->
     <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
         <div class="container">
             <div class="row justify-content-evenly">
