@@ -1,167 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <!-- owl carousel links -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
-    
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-xl" id="bgrd">
         <div class="container-fluid">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: grey; border: none; border-radius: 30px; height: auto; font-size: 1rem;">
-            <img src="./assets/home/Question.svg" alt="" style="width: 20px; height: 20px;">
-            Update
-          </button>
-          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content" style="background-color: grey; color: white;">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Important Updates</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="background-color: grey; border: none; border-radius: 30px; height: auto; font-size: 1rem;">
+                <img src="./assets/home/Question.svg" alt="" style="width: 20px; height: 20px;">
+                Important Upadtes
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="background-color: grey; color: white;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Important Updates</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="m-list">
+                                <p>1. Title of Update</p>
+                                <button type="button" class="btn"
+                                    style="background-color: orangered; color: white;">View</button>
+                            </div>
+                            <div class="m-list">
+                                <p>1. Title of Update</p>
+                                <button type="button" class="btn"
+                                    style="background-color: orangered; color: white;">View</button>
+                            </div>
+                            <div class="m-list">
+                                <p>1. Title of Update</p>
+                                <button type="button" class="btn"
+                                    style="background-color: orangered; color: white;">View</button>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal-body">
-                  <div class="m-list">
-                      <p>1. Title of Update</p>
-                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
-                  </div>
-                  <div class="m-list">
-                      <p>1. Title of Update</p>
-                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
-                  </div>
-                  <div class="m-list">
-                      <p>1. Title of Update</p>
-                      <button type="button" class="btn" style="background-color: orangered; color: white;">View</button>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                </div>
-              </div>
             </div>
-          </div>
-          <!-- modal -->
-          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
-            <span class="navbar-toggler-icon "></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav" style="margin: auto;">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Departments
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Admission
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Facilities
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Student Support
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Events
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Placements
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Outreach
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Alumni
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                </li>
-            </ul>
-          </div>
+            <!-- modal -->
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="margin: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Admission
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Facilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Placements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Outreach
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alumni
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
     <!------------------Navbar end-------------------->
@@ -171,11 +191,11 @@
         <div id="header-logo">
             <img src="./assets/gni_logo.svg" alt="GNIT Logo">
             <div id="header-logo-text">
-                <h3>Guru Nanak Institute of Enggineering and Technology</h3> 
-                <span>Near hazari bagh, Sec - 04, Jamshedpur - 121004</span> 
+                <h3>Guru Nanak Institute of Enggineering and Technology</h3>
+                <span>Near hazari bagh, Sec - 04, Jamshedpur - 121004</span>
             </div>
         </div>
-    
+
         <div id="header-contact">
             <h3>Contact Us</h3>
             <div id="header-contact-details">
@@ -187,7 +207,8 @@
 
     <section id="hero-section">
         <h1>Guru Nanak Institute of <span>Engineering</span> and Technology</h1>
-        <p>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets</p>
+        <p>In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their
+            opportunities in key local, regional and global markets</p>
         <div id="hero-section-button">
             <button>Contact Us</button>
         </div>
@@ -198,13 +219,20 @@
         <h2 class="heading">About <span>____</span></h2>
         <div id="about-college">
             <h4>College</h4>
-            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity</p>
+            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as
+                not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our
+                facilities at some stage so as not to hamper your productivity</p>
         </div>
 
         <div id="about-founder">
             <div id="about-founder-text">
                 <h4>Founder</h4>
-                <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity. During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity.</p>
+                <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so
+                    as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are
+                    improving our facilities at some stage so as not to hamper your productivity. During the COVID-19
+                    pandemic, for your convenience we are improving our facilities at some stage so as not to hamper
+                    your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities
+                    at some stage so as not to hamper your productivity.</p>
             </div>
             <div id="about-founder-img">
                 <img src="./assets/home/Founder image.png" alt="Founder Image">
@@ -219,38 +247,38 @@
             <span>____</span>
         </h2>
         <div class="stat-container">
-             <div class="stat">
-                <img src="./assets/home/statistics/Group 50.svg" alt=""> 
+            <div class="stat">
+                <img src="./assets/home/statistics/Group 50.svg" alt="">
                 <h6>1999</h6>
                 <p>Established</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 51.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 51.svg" alt="">
                 <h6>A+</h6>
                 <p>Graded by NAAC</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 52.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 52.svg" alt="">
                 <h6>139</h6>
                 <p>NIRF 2021 ranking</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 53.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 53.svg" alt="">
                 <h6>2</h6>
                 <p>ARIIA 2020 Ranking</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 54.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 54.svg" alt="">
                 <h6>4500</h6>
                 <p>Students Enrolled</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 55.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 55.svg" alt="">
                 <h6>14260+</h6>
                 <p>Alumni Registrations</p>
             </div>
             <div class="stat">
-                <img src="./assets/home/statistics/Group 56.svg" alt=""> 
+                <img src="./assets/home/statistics/Group 56.svg" alt="">
                 <h6>100+</h6>
                 <p>Placement Drives Every Year</p>
             </div>
@@ -262,18 +290,19 @@
         <div class="events">
             <h2 class="heading">Events <span>____</span></h2>
             <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
-            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper.</p>
+            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as
+                not to hamper.</p>
             <div class="event-card">
                 <img src="./assets/home/events/image 20.png" alt="" class="event-card-image">
-                <p  class="event-card-name">Event 1</p>
+                <p class="event-card-name">Event 1</p>
             </div>
             <div class="event-card">
-                <img src="./assets/home/events/image 20.png" alt=""  class="event-card-image">
-                <p  class="event-card-name">Event 2</p>
+                <img src="./assets/home/events/image 20.png" alt="" class="event-card-image">
+                <p class="event-card-name">Event 2</p>
             </div>
             <div class="event-card">
-                <img src="./assets/home/events/image 20.png" alt=""  class="event-card-image">
-                <p  class="event-card-name">Event 3</p>
+                <img src="./assets/home/events/image 20.png" alt="" class="event-card-image">
+                <p class="event-card-name">Event 3</p>
             </div>
             <div class="navigate">
                 <div id="event-decrease" class="navigate-left"><i class="fas fa-arrow-circle-left"></i></div>
@@ -284,7 +313,8 @@
         <div class="highlights">
             <h2 class="heading">Highlights <span>____</span></h2>
             <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
-            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper.</p>
+            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as
+                not to hamper.</p>
             <div class="highlight-card">
                 <img src="./assets/home/highlights/image 21.png" alt="">
                 <p>Highlight 1</p>
@@ -306,31 +336,35 @@
 
 
     <section class="placement">
-            <h2 class="heading">Training & Placement <span>____</span></h2>
-            <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
-            <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity.</p>
+        <h2 class="heading">Training & Placement <span>____</span></h2>
+        <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
+        <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to
+            hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities
+            at some stage so as not to hamper your productivity.</p>
 
-            <div class="placement-container">
-                <div class="placement-card">
-                    <img src="./assets/home/placement/image 22.png" alt="">
-                    <p>Training</p>
-                </div>
-                <div class="placement-card">
-                    <img src="./assets/home/placement/image 22.png" alt="">
-                    <p>Placement</p>
-                </div>
-                <div class="placement-card">
-                    <img src="./assets/home/placement/image 22.png" alt="">
-                    <p>Placement</p>
-                </div>
+        <div class="placement-container">
+            <div class="placement-card">
+                <img src="./assets/home/placement/image 22.png" alt="">
+                <p>Training</p>
             </div>
+            <div class="placement-card">
+                <img src="./assets/home/placement/image 22.png" alt="">
+                <p>Placement</p>
+            </div>
+            <div class="placement-card">
+                <img src="./assets/home/placement/image 22.png" alt="">
+                <p>Placement</p>
+            </div>
+        </div>
     </section>
 
 
     <section class="newsFeed">
         <h2 class="heading">News & Featured <span>____</span></h2>
         <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
-        <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity.</p>
+        <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to
+            hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities
+            at some stage so as not to hamper your productivity.</p>
 
         <div class="news-container">
             <div class="news-card">
@@ -352,7 +386,9 @@
     <section class="campus-life">
         <h2 class="heading">Campus Life<span>____</span></h2>
         <a href="#" class="more-link">more &nbsp &nbsp &nbsp &nbsp></a>
-        <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to hamper your productivity. </p>
+        <p>During the COVID-19 pandemic, for your convenience we are improving our facilities at some stage so as not to
+            hamper your productivityDuring the COVID-19 pandemic, for your convenience we are improving our facilities
+            at some stage so as not to hamper your productivity. </p>
         <div class="campus-div">
             <div class="campus-block">
                 <img src="./assets/home/campus/canteen(blue).svg" alt="">
@@ -512,89 +548,119 @@
             </div>
             <div class="item">
                 <img src="./assets/home/partners/image 32 (2).png" alt="">
-    
-    </section>
-    <!-- companies ends -->
-    
 
-    <!--Footer Section-->
-    <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
-        <div class="container">
-            <div class="row justify-content-evenly">
-                <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
-                    <a class="brand" href="index.html">
-                        <img class="brand-logo-light" src="assets/gni_logo.svg" alt="" >
-                    </a>
-                    <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
-                    <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
-                </div>
+        </section>
+        <!-- companies ends -->
 
-                <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
-                    <dl id="contact">
-                      <dt>CONTACT</dt>
-                      <br>
-                      <dd>8765768757575</dd>
-                    </dl>
-                    <br>
-                    <dl id="email">
-                      <dt>E-MAIL</dt>
-                      <br>
-                      <dd>ryash1921@gmail.com
-                      </dd>
-                    </dl>
-                    <br>
-                    <dl id="social-media">
-                      <dt>CONNECT US</dt>
-                      <dd><ul class="social_footer_ul">
-                          <br>
-                          <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
-                          <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
-                          <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
-                          </ul></dd>
-                    </dl>
-                </div>
 
-                <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
-                    <dl>
-                        <dt>IMPORTANT LINKS</dt>
+        <!--Footer Section-->
+        <footer id="footer" class="p-4" style="background: #A9FFFA4F">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                        <a class="brand" href="index.html">
+                            <img class="brand-logo-light" src="assets/gni_logo.svg" alt="">
+                        </a>
+                        <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                        <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                        <dl id="contact">
+                            <dt>CONTACT</dt>
+                            <br>
+                            <dd>8765768757575</dd>
+                        </dl>
                         <br>
-                        <a href="#"><dd>Annual Report</dd></a>
-                        <a href="#"><dd>Anti Ragging Squad</dd></a>
-                        <a href="#"><dd>Mandatory Disclosure</dd></a>
-                        <a href="#"><dd>Ragging Free campus</dd></a>
-                        <a href="#"><dd>Eligibility Criteria</dd></a>
-                        <a href="#"><dd>Admission Process</dd></a>
-                        <a href="#"><dd>IT Policy</dd></a>
-                        <a href="#"><dd>NAAC</dd></a>
-                    </dl>
-                </div>
-                
-                <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
-                    <dl>
-                        <dt>QUICK LINKS</dt>
+                        <dl id="email">
+                            <dt>E-MAIL</dt>
+                            <br>
+                            <dd>ryash1921@gmail.com
+                            </dd>
+                        </dl>
                         <br>
-                        <a href="#"><dd>NAAC Links</dd></a>
-                        <a href="#"><dd> www.aicte-india.org/</dd></a>
-                        <a href="#"><dd> www.rtmnuresults.org/</dd></a>
-                        <a href="#"><dd> www.dtemaharashtra.gov.in</dd></a>
-                      </dl>
-                </div>
+                        <dl id="social-media">
+                            <dt>CONNECT US</dt>
+                            <dd>
+                                <ul class="social_footer_ul">
+                                    <br>
+                                    <li><a href="http://webenlance.com"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="http://webenlance.com"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="http://webenlance.com"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
 
+                    <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                        <dl>
+                            <dt>IMPORTANT LINKS</dt>
+                            <br>
+                            <a href="#">
+                                <dd>Annual Report</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Anti Ragging Squad</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Mandatory Disclosure</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Ragging Free campus</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Eligibility Criteria</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Admission Process</dd>
+                            </a>
+                            <a href="#">
+                                <dd>IT Policy</dd>
+                            </a>
+                            <a href="#">
+                                <dd>NAAC</dd>
+                            </a>
+                        </dl>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                        <dl>
+                            <dt>QUICK LINKS</dt>
+                            <br>
+                            <a href="#">
+                                <dd>NAAC Links</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.aicte-india.org/</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.rtmnuresults.org/</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.dtemaharashtra.gov.in</dd>
+                            </a>
+                        </dl>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <section id="copyright-text">
-        <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved. </span>
-    </section>
+        <section id="copyright-text">
+            <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved.
+            </span>
+        </section>
 
-    <!-- scripts -->
+        <!-- scripts -->
 
-    <script src="./js/Jquery-3.5.1.min.js"></script>
+        <script src="./js/Jquery-3.5.1.min.js"></script>
 
-    <script src="./js/owl.carousel.min.js"></script>
+        <script src="./js/owl.carousel.min.js"></script>
 
-    <script src="./js/home.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+        <script src="./js/home.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
