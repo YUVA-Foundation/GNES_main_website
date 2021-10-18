@@ -1031,9 +1031,9 @@ dd {
   padding: 20px 40px;
   margin-bottom: 0px;
 }
-/* #about-chairperson-text {
+#about-chairperson-text {
   flex: 0.8 1;
-} */
+}
 #about-chairperson-text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 30px;
@@ -1074,9 +1074,9 @@ dd {
   padding: 20px 40px;
   margin-bottom: 0px;
 }
-/* #about-principal-text {
+#about-principal-text {
   flex: 0.8 1;
-} */
+}
 #about-principal-text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 25px;
@@ -1128,9 +1128,9 @@ dd {
   flex-wrap: wrap;
   padding-bottom: 34px;
 }
-/* #about-institutions-text {
+#about-institutions-text {
   flex: 0.8 1;
-} */
+}
 #about-institutions-text p {
   font-family: Lato;
   font-size: 22px;
