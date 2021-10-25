@@ -1,0 +1,292 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+</head>
+<body style="background-color: rgba(211, 211, 211,0.1);">
+    <!--navbar-->
+    <nav class="navbar navbar-expand-xl fixed-top" id="bgrd">
+        <div class="container-fluid">
+          <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav" style="margin: auto;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    About
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Departments
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Admission
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Facilities
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Student Support
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Placements
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Outreach
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Alumni
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!------------------Navbar end-------------------->
+
+    <!-- gallery section -->
+    <br><br>
+    <section id="event-container" class="container-fluid">
+        <h2 class="heading">Gallery<span>____</span></h2>
+
+        <div id="tabs">
+            <button class="image-gallery active" id="image-button" onclick="callImages()">Images</button>
+            <button class="video-gallery" id="video-button" onclick="callVideos()">Videos</button>
+        </div>
+
+        <div id="image-gallery">
+            <div class="section">
+                <h2 class="subheading">Image Gallery</h2>
+            </div>
+            
+            <!-- modal -->
+            <div class="modals">
+              <div class="close-modal-button">&times;</div>
+              <div class="navigate">
+                <img src="./assets/gallery/leftarrow.png" id="navigate-left" onclick="NavigateImages(-1)">
+              </div>
+              <img src="" alt="expanded-img" id="modal-img">
+              <div class="navigate">
+                <img src="./assets/gallery/rightarrow.png" id="navigate-right" onclick="NavigateImages(1)">
+              </div>
+            </div>
+    
+            <!-- images -->
+            <img src="./assets/gallery/image 21 (1).png" alt="gallery" class="gallery-image" onclick="imageModal(0)">
+            <img src="./assets/gallery/image 25.png" alt="gallery" class="gallery-image" onclick="imageModal(1)">
+            <img src="./assets/gallery/image 26.png" alt="gallery" class="gallery-image" onclick="imageModal(2)">
+            <img src="./assets/gallery/image 27.png" alt="gallery" class="gallery-image" onclick="imageModal(3)">
+            <img src="./assets/gallery/image 28.png" alt="gallery" class="gallery-image" onclick="imageModal(4)">
+            <img src="./assets/gallery/image 21 (1).png" alt="gallery" class="gallery-image" onclick="imageModal(5)">
+            <img src="./assets/gallery/image 25.png" alt="gallery" class="gallery-image" onclick="imageModal(6)">
+            <img src="./assets/gallery/image 26.png" alt="gallery" class="gallery-image" onclick="imageModal(7)">
+            <img src="./assets/gallery/image 27.png" alt="gallery" class="gallery-image" onclick="imageModal(8)">
+    
+        </div>    
+    
+        <!-- video gallery -->
+        <div id="video-gallery">
+          <div class="section">
+              <h2 class="subheading">Video Gallery</h2>
+          </div>
+          
+          <!-- modal -->
+          <div class="modals">
+            <div class="close-modal-button">&times;</div>
+            <div class="navigate">
+              <img src="./assets/gallery/leftarrow.png" id="navigate-left" onclick="NavigateVideo(-1)">
+            </div>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/yzGyv6xksnM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/yzGyv6xksnM"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <iframe src="https://www.youtube.com/embed/tgbNymZ7vqY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="modal-video"></iframe>
+            <div class="navigate">
+              <img src="./assets/gallery/rightarrow.png" id="navigate-right" onclick="NavigateVideo(1)">
+            </div>
+          </div>
+    
+          <!-- thumbnail for videos -->
+          <img src="./assets/gallery/image 28.png" alt="gallery" class="gallery-video" onclick="videoModal(0)">
+          <img src="./assets/gallery/image 21 (1).png" alt="gallery" class="gallery-video" onclick="videoModal(1)">
+          <img src="./assets/gallery/image 25.png" alt="gallery" class="gallery-video" onclick="videoModal(2)">
+          <img src="./assets/gallery/image 26.png" alt="gallery" class="gallery-video" onclick="videoModal(3)">
+          <img src="./assets/gallery/image 27.png" alt="gallery" class="gallery-video" onclick="videoModal(4)">
+          <img src="./assets/gallery/image 28.png" alt="gallery" class="gallery-video" onclick="videoModal(5)">
+          <img src="./assets/gallery/image 21 (1).png" alt="gallery" class="gallery-video" onclick="videoModal(6)">
+          <img src="./assets/gallery/image 21 (1).png" alt="gallery" class="gallery-video" onclick="videoModal(7)">
+          <img src="./assets/gallery/image 25.png" alt="gallery" class="gallery-video" onclick="videoModal(8)">
+    
+      </div>    
+
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class="p-4"  style="background: #A9FFFA4F">
+        <div class="container">
+            <div class="row justify-content-evenly">
+                <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                    <a class="brand" href="index.html">
+                        <img class="brand-logo-light" src="assets/gni_logo.svg" alt="" >
+                    </a>
+                    <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                    <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
+                </div>
+
+                <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                    <dl id="contact">
+                      <dt>CONTACT</dt>
+                      <br>
+                      <dd>8765768757575</dd>
+                    </dl>
+                    <br>
+                    <dl id="email">
+                      <dt>E-MAIL</dt>
+                      <br>
+                      <dd>ryash1921@gmail.com
+                      </dd>
+                    </dl>
+                    <br>
+                    <dl id="social-media">
+                      <dt>CONNECT US</dt>
+                      <dd><ul class="social_footer_ul">
+                        <br>
+                        <a href="#"><img src="./assets/Group 73.svg" alt=""></a>
+                        <a href="#"><img src="./assets/Group 74.svg" alt=""></a>
+                        <a href="#"><img src="./assets/Group 75.svg" alt=""></a>
+                        </ul></dd>
+                    </dl>
+                </div>
+
+                <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                    <dl>
+                        <dt>IMPORTANT LINKS</dt>
+                        <br>
+                        <a href="#"><dd>Annual Report</dd></a>
+                        <a href="#"><dd>Anti Ragging Squad</dd></a>
+                        <a href="#"><dd>Mandatory Disclosure</dd></a>
+                        <a href="#"><dd>Ragging Free campus</dd></a>
+                        <a href="#"><dd>Eligibility Criteria</dd></a>
+                        <a href="#"><dd>Admission Process</dd></a>
+                        <a href="#"><dd>IT Policy</dd></a>
+                        <a href="#"><dd>NAAC</dd></a>
+                    </dl>
+                </div>
+                
+                <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                    <dl>
+                        <dt>QUICK LINKS</dt>
+                        <br>
+                        <a href="#"><dd>NAAC Links</dd></a>
+                        <a href="#"><dd> www.aicte-india.org/</dd></a>
+                        <a href="#"><dd> www.rtmnuresults.org/</dd></a>
+                        <a href="#"><dd> www.dtemaharashtra.gov.in</dd></a>
+                      </dl>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <section id="copyright-text">
+        <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved. </span>
+    </section>
+
+    <!-- scripts -->
+    <script src="./js/home.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
