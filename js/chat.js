@@ -1,17 +1,19 @@
 class InteractiveChatbox {
-    constructor(a, b, c) {
+    constructor(a, b, c, d) {
         this.args = {
             button: a,
-            chatbox: b
+            chatbox: b,
+            cross: c,
         }
-        this.icons = c;
+        this.icons = d;
         this.state = false; 
     }
 
     display() {
-        const {button, chatbox} = this.args;
+        const {button, chatbox, cross} = this.args;
         
         button.addEventListener('click', () => this.toggleState(chatbox))
+        cross.addEventListener('click', () => this.toggleState(chatbox));
     }
 
     toggleState(chatbox) {

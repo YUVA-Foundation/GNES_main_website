@@ -12,11 +12,11 @@
   .chatbox__support {
     display: flex;
     flex-direction: column;
-    background: rgba(0, 0, 0, 0.733);
-    width: 300px;
+    background: rgba(0, 0, 0, 0.938);
+    width: 330px;
     height: auto;
     z-index: -123456;
-    padding: 1rem;
+    padding: 2rem 1rem;
     opacity: 0;
     transition: all .5s ease-in-out;
   }
@@ -57,4 +57,11 @@
     text-decoration: none;
     color: orangered;
 
+  }
+
+  .chatbox .chatbox__support .cross img{ 
+    width: 30px;
+    height: 30px;
+    margin-top: -10px;
+    margin-right: -20px;
   }
