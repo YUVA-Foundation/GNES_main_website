@@ -16,7 +16,7 @@
     width: 330px;
     height: auto;
     z-index: -123456;
-    padding: 2rem 1rem;
+    padding: 1rem;
     opacity: 0;
     transition: all .5s ease-in-out;
   }
@@ -62,6 +62,7 @@
   .chatbox .chatbox__support .cross img{ 
     width: 30px;
     height: 30px;
-    position: relative;
-    left: 250px;
+    position: absolute;
+    left: 270px;
+    top: 20px;
   }
