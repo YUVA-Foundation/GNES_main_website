@@ -1554,10 +1554,12 @@ td {
   margin-top: 0.5rem;
   color: var(--blue-shade);
   font-size: 1rem;
+  text-align: center;
 }
 .council-desc {
   color: var(--text-color);
   font-size: 0.8rem;
+  text-align:center;
 }
 .circles {
   width: 100%;
@@ -1737,6 +1739,11 @@ td {
   align-items: center;
   flex-direction: column;
 }
+.team-box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .cordinator-box img {
   width: 80%;
 }
@@ -1817,6 +1824,10 @@ td {
   }
   .team-box {
     width: 50%;
+  }
+  .team-box img{
+    width:150px;
+    height:150px;
   }
   .cordinator-box img {
     width: 100%;
