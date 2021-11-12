@@ -1737,6 +1737,11 @@ td {
   align-items: center;
   flex-direction: column;
 }
+.team-box img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 .cordinator-box img {
   width: 80%;
 }
