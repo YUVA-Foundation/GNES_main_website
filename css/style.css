@@ -1727,6 +1727,9 @@ td {
   top: -8px;
   background-color: white;
 }
+.placement-policies li{
+  font-size:18px;
+}
 .team-container {
   display: flex;
   justify-content: space-evenly;
