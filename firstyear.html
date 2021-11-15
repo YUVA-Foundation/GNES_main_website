@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Year of Engineering</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/chatbot.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-xl fixed-top" id="bgrd">
+        <div class="container-fluid">
+            <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle-navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav" style="margin: auto;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Departments
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Admission
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Facilities
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Student Support
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Events
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Placements
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Outreach
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Alumni
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!------------------Navbar end-------------------->
+    <br><br>
+    <section id="dept">
+        <h2 class="heading">First Year of Engineering<span>____</span></h2>
+        <img src="./assets/home//hero_bg.png" alt="" class="dept_img">
+
+        <section class="dept_intro">
+            <p>
+                First Year Engineering plays important role in building the foundation of an engineering graduate and
+                learn basics of all branches along with Mathematics, Chemistry & Physics. We focus on the academic
+                performance as well as industry interaction to develop overall personality of the students. The
+                competent and enthusiastic faculty demonstrates unique team work for enhancing the academic and
+                industrial knowledge among the students. <br> <br>
+                Overall development of the students we conduct various co-curricular & extra-curricular activities,
+                effective planning, organizing, coordinating and teaching learning process. The department has
+                well-furnished class rooms, laboratories and necessary infrastructural facilities
+                Applied Sciences are the base of Engineering. The Department of First Year Engineering Department aims
+                to help students develop strong fundamentals in all basic courses. With sound fundamentals, learning
+                advanced and specialized courses become easier for students. Applied Physics, Applied Chemistry, Applied
+                Mathematics, Communication Skills and ICC are the subjects taught at different stages of the four year
+                course. The Department has a team of committed faculty members with proven skills in their respective
+                fields and state-of-the-art Information in this entire Subject. <br> <br>
+                Applied Physics and Applied Chemistry are taught at first year level. The laboratories are well equipped
+                to carry various analysis and conduct advanced practical in the field of Solid State Physics and Optics.
+                Applied Mathematics, the core subject of Engineering, is taught up to pre-final year level. The subject
+                helps students learn methods in Mathematical Modeling such as Classical, Numerical and Optimization
+                techniques. The students are trained to incorporate mathematical models in Engineering situations and
+                find plausible solutions for the same. <br> <br>
+                Department of First Year Engineering is also actively involved in pursuing research activities. The
+                Department has the distinction of publishing and presenting maximum number of technical papers in peer
+                reviewed national, international journals and conferences.
+
+
+
+            </p>
+        </section>
+    </section>
+    <section class="dept_aim" id="dept">
+        <h6 class="subheading">Aim</h6>
+        <p>
+        <ul>
+            <li>To promote skill and development in the emerging ,thrust area and attainment of academics excellence
+                with the importance of basic science by developing a natural flair engineering and technology</li>
+            <li>To encourage students to identify and bridge gaps between the curriculum and industry requirements</li>
+
+            <li>To ensure an all round development of students</li>
+            <li>• To promote awareness amongst students for life long learning and to inculcate professional and ethical
+                attitude good leadership qualities and commitment to social responsibilities</li>
+            <li>To promote leadership and professionalism among the students and faculty by providing right ambience
+            </li>
+
+
+        </ul>
+        </p>
+    </section>
+
+    <br>
+    <br>
+
+    <section class="dept_prog dept" id="dept">
+        <h6 class="subheading">
+            Program Educational Objectives
+        </h6>
+        <section class="peo1">
+            <div class="peo">
+                <div class="no">
+                    <p>PEO1</p>
+                </div>
+                <div class="content c-blue">
+                    <p>To introduce innovative teaching methodologies and evaluation strategies<br><br> <br></p>
+                </div>
+            </div>
+            <div class="peo">
+                <div class="no">
+                    <p>PEO2</p>
+                </div>
+                <div class="content c-orange">
+                    <p>To give the best practical knowledge to the students for their enhancement<br><br><br>
+                    </p>
+                </div>
+            </div>
+            <div class="peo">
+                <div class="no">
+                    <p>PEO3</p>
+                </div>
+                <div class="content c-orange">
+                    <p>To guide students in personality development and communicational skills
+                        <br>
+                        <br>
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="peo">
+                <div class="no">
+                    <p>PEO4</p>
+                </div>
+                <div class="content c-blue">
+                    <p>• To provide students with his strong foundation in mathematical scientific and engineering
+                        fundamentals necessary to identify, analyze and solve real life problems and to prepare them for
+                        graduate in their specific domain
+                    </p>
+                </div>
+            </div>
+        
+        </section>
+        </div>
+    </section>
+
+    <!-- <section class="prog_offered" id="dept">
+        <h6 class="subheading">
+            Programs Offered
+        </h6>
+        <div class="d-strip">
+            <p>B.E. – Electrical Engineering</p>
+            <a href="#">Download</a>
+        </div>
+        <div class="d-strip">
+            <p>M.Tech. – Power Electronics & Power System</p>
+            <a href="#">Download</a>
+        </div>
+    </section> -->
+    <br>
+    <br>
+    <!-- <section id=faculties>
+        <h6 class="subheading">
+            Faculty
+        </h6>
+        <div class="owl-carousel owl-theme faculty">
+            <div class="f-card">
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                    <h5>Prof. Rajendra Bhombe,Asst. Professor & Head</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), Vice Principal,GNIET M.TECH.(IPS)
+                        <br>
+                    </p>
+                </div>
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                    <h5>Prof. Diksha Khare, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), M.TECH.(IPS)
+                        <br>
+                        ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                    <h5>Prof. Yogesh Likhar, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EX), M.E (EE) <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                    <h5>Prof. Akshay Pillewan, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), M.TECH.(IPS <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                    <h5>Prof. Manish Agrawal, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), M-TECH (IPS) <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                    <h5>Prof. Milind Rode, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), M-TECH (IPS)
+                        <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+            </div>
+            <div class="f-card">
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                    <h5>Prof . Kanchan Bande, Asst. Professor</h5>
+                    <p style="font-weight: 200; font-size: 20px;">BE(EE) , M.Tech(IPS)<br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                    <h5>Prof. Rajendra Bhombe, Asst. Professor & Head</h5>
+                    <p style="font-weight: 200; font-size: 20px;">B.E. (EE), Vice Principal,GNIET M.TECH.(IPS)
+                        <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University
+                    </p>
+                </div>
+            </div>
+            
+            <div class="f-card">
+                <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43.png" alt="">
+                    <h5>Ram Prasad, HOD</h5>
+                    <p style="font-weight: 200; font-size: 20px;">Assistant Professor <br>
+                         ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University</p> 
+                </div>
+                 <div class="fac">
+                    <img src="./assets/dept/faculty/Ellipse 43 (1).png" alt="">
+                    <h5>Ram Prasad, HOD</h5>
+                    <p style="font-weight: 200; font-size: 20px;">Assistant Professor <br>
+                        ME thermal Engineering <br>
+                        Member of Syllabus Sub Committee in Anna University</p> 
+                </div> 
+        </div>
+
+
+        </div>
+    </section> -->
+
+
+
+    <!-- <section class="facilities" id="dept">
+        <h6 class="subheading">
+            Facilities
+        </h6>
+        <div class="facility">
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Communication Electronics Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Project Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Advance Computer Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Software Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Electronic Devices & Circuit Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Digital Circuits & Fundamental of Microprocessor Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Analog Circuit & Design Lab
+
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Microwave & TV Lab
+
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    Microprocessor & Microcontroller Lab
+                </p>
+            </div>
+            <div class="lab">
+                <div class="textoverimage" style="background-image: url(./assets/dept/facilities/Rectangle\ 133.png);"
+                    data-text=" ">
+                </div>
+                <p class="lab-text">
+                    CMOS VLSI Lab
+                </p>
+            </div>
+
+        </div>
+    </section> -->
+    <section id="awards">
+        <h6 class="subheading">Events</h6>
+        <section class="owl-carousel owl-theme awards">
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Events organized by Rotaract club
+                </h5>
+                 <p style="text-align: center;"> Trees of Future</p> 
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Events organized by Rotaract club</h5>
+                 <p style="text-align: center;">Amicitia</p> 
+            </div>
+            <!-- <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Dahi Handi</h5>
+                <p style="text-align: center;"> To inculcate ability in creativity & design of computer support systems
+                    and impart knowledge and skills for analyze, design, test and implement various software
+                    applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Garba</h5>
+                <p style="text-align: center;">To inculcate ability in creativity & design of computer support systems
+                    and impart knowledge and skills for analyze, design, test and implement various software
+                    applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Ganesh Utsav</h5>
+                <p style="text-align: center;"> To inculcate ability in creativity & design of computer support systems
+                    and impart knowledge and skills for analyze, design, test and implement various software
+                    applications.</p>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets/student_support/clubs.svg" alt="">
+                </div>
+                <h5 class="club-name" style="font-size: 1.5rem; text-align:center;">Teacher's Day</h5>
+                <p style="text-align: center;">To inculcate ability in creativity & design of computer support systems
+                    and impart knowledge and skills for analyze, design, test and implement various software
+                    applications.</p>
+            </div> -->
+
+
+        </section>
+    </section>
+    <!-- <section id="awards">
+        <h6 class="subheading">Awards & Achievements</h6>
+        <section class="owl-carousel owl-theme awards">
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>1st rank in National Model Building Contests.
+                    <br>
+                    (Super Thermal Power Station)
+                </span>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>2nd rank in National Model Building Contests.
+                    <br>
+                    (Smart Bridge)
+                </span>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>1st rank in National level Paper presentation <br> held in GNI Campus</span>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>Name of the award</span>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>Name of the award</span>
+            </div>
+            <div class="aw-card">
+                <div class="aw-img">
+                    <img src="./assets//home/highlights/image 21.png" alt="">
+                </div>
+                <span>Name of the award</span>
+            </div> 
+
+        </section>
+        </section>-->
+
+
+        <!-- <section id="Achievers">
+            <h6 class="subheading">Our Achievers</h6>
+            <div class="owl-carousel owl-theme achm">
+                <div class="a-card">
+                    <div class="a-card-top">
+                        <div class="a-img">
+                            <img src="./assets/home/testm/Ellipse 1.png" alt="">
+                        </div>
+                        <div class="a-name">
+                            <h6>Pranali Dongre</h6>
+                            <span></span>
+                        </div>
+                    </div>
+                    <p class="a-card-text">University-3rd rank <br>
+                        Cgpa-9.13
+                    </p>
+                </div>
+            </div> 
+        </section> -->
+        <!-- <section class="career_pros" id="dept" style="margin-bottom: 5rem;">
+            <h6 class="subheading">
+                Career prospect
+            </h6>
+            <p style="text-align: center;">
+                ECE students can have careers in industries like consumer electronics manufacturing organization,
+                Automotive, Telecommunication & IT industries, Health care equipment manufacturing, Mobile communication
+                (2G, 3G, 4G and 5G), Internet technologies, Power Electronics, and other industries like steel,
+                petroleum and chemical industry etc. ECE students also have lots of opportunities in Government and
+                private companies in the areas of design, manufacture, installation, operation, and maintenance of
+                electronics equipment and systems. New opportunities and avenues are also opening up for electronics &
+                communication engineers due to integration of electronics into various new industrial verticals. The
+                latest technologies include self-driving cars, autonomous drone logistics, robotics, automation in
+                industries, smart energy systems etc. But getting acquainted with these industries will not be easy as
+                they demand engineers who are more hands-on with the latest technologies.
+                <br><br>
+                <b>Major technologies in which an ECE engineer can work on</b> <br>
+                <b>Analog and Radio Frequency Circuits: </b> <br>
+                Without these cell phones, Wi-Fi, television will cease to exist. A lot of industries are established to
+                meet the consumer demands and in the process, they opened up a lot of job opportunities for electronics
+                engineers.
+                <br><br>
+                <b>Communication & Signal Processing: </b> <br>
+                This particular technology finds its application in transmission, storage and analysis of information
+                signals.
+                <br><br>
+                3. Computer & Digital Systems: All the industries are able to advance technologically at a faster pace
+                than before with the help of computers. These digital systems are everywhere from smart watches to Mars
+                rovers.
+                <br><br>
+                Networking:</b> <br> With the boom on the internet, we are experiencing 3G, 4G services which help the
+                organizations and industries to easily collaborate with people. There is a lot of scope for engineers
+                who want to work in this technology.
+                <br><br>
+                <b>Computer vision & Image processing: </b> <br>These technologies are helping computers in the areas
+                like
+                medical, surveying, photogrammetry etc. For instance, now we have medical devices that can analyze data
+                to not only display images but identify diseases too with the help of magneto-resonance imaging
+                technology.<br><br>
+
+                <b> Control systems & Robotics:</b> <br> With the advancement in the technologies lately more and more
+                industries
+                are adopting automation and robots into their operations to improve their efficiency. And a lot more
+                industries are expected to adopt these technologies in the coming years.<br><br>
+                <b>emote Sensing: </b> <br>Communication via radio waves is essential for mobile devices, radios, and
+                all the
+                devices that are connected to the internet. From mapping to navigation, remote sensing plays vital role
+                in various technologies.<br><br>
+
+                <b>Nanotechnology: </b> <br>The more efficient solar cells, faster transistors, tracking chips and
+                microscopic
+                sensors that we see today are the products of nanotechnology. Lot of industries is adapting this
+                technology to make their products smaller and more efficient.<br><br>
+                <b>Sustainable Energy & Power systems: </b> <br>Now industries are investing lots of their money and
+                time to
+                develop more efficient solar cells, windmills, systems that can generate power from tides etc. This
+                technology offers a wide range of job opportunities for electronics engineers.<br><br>
+                <b>Energy Storage Technology: </b> <br>The demand for energy storage systems is likely to grow
+                exponentially
+                globally as the world shifts towards renewable energy sources. This shift will mandate both grid level
+                and unit level energy storage systems that are of viable size, cost, and energy efficiency. Significant
+                research is currently being conducted on materials, engineering, and other optimizations.<br><br>
+
+                <b class="subhaeding">Skills that an ECE student needs to develop to improve job prospects</b>
+                If you are an ECE student, here are some of the skills and areas that you need to concentrate to improve
+                your job prospects,
+            <ul>
+                <li>Computer proficiency is a must these days; try to get acquainted with some of the industrial grade
+                    software</li>
+                <li>Develop your communication and interpersonal skills</li>
+                <li>Develop more practical skills and get hands-on experience on theoretical concepts</li>
+                <li>Get exposed to current industrial methodologies as much as possible</li>
+                <li>Stay updated with the latest technologies by developing projects on them</li>
+                <li>Do additional certified training programs to build your profile</li>
+                <li>Take additional responsibilities in your college to showcase your managerial skills</li>
+                <li>Develop your leadership and team working abilities</li>
+            </ul>
+            </p>
+        </section> -->
+
+        <!--Important Updates-->
+        <div class="chatbox">
+            <div class="chatbox__support">
+                <p style="margin-left: 1rem;">Hello</p>
+                <div class="cross">
+                    <img src="./assets/home/download-removebg-preview (5).png" alt="">
+                </div>
+                <div class="m-list">
+                    <p>Title of Update</p>
+                    <a href="#">View</a>
+                </div>
+                <div class="m-list">
+                    <p>Title of Update</p>
+                    <a href="#">View</a>
+                </div>
+                <div class="m-list">
+                    <p>Title of Update</p>
+                    <a href="#">View</a>
+                </div>
+            </div>
+
+            <div class="chatbox__button">
+                <img src="./assets/home/Question.svg" alt="" style="width: 20px; height: 20px;"> Updates
+            </div>
+        </div>
+        <!--Footer Section-->
+        <footer id="footer" class="p-4" style="background: #A9FFFA4F">
+            <div class="container">
+                <div class="row justify-content-evenly">
+                    <div class="col-10 col-md-5 col-xl-4 mt-5 mt-xl-0" id="footer-logo">
+                        <a class="brand" href="index.html">
+                            <img class="brand-logo-light" src="assets/gni_logo.svg" alt="">
+                        </a>
+                        <p class="logo-text">Guru Nanak Institute of Engineering and Technology</p>
+                        <h6 id="footer-address">Near hazari bagh, Sec - 04, Jamshedpur - 121004</h6>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xl-3 mt-5 mt-xl-0">
+                        <dl id="contact">
+                            <dt>CONTACT</dt>
+                            <br>
+                            <dd>8765768757575</dd>
+                        </dl>
+                        <br>
+                        <dl id="email">
+                            <dt>E-MAIL</dt>
+                            <br>
+                            <dd>ryash1921@gmail.com
+                            </dd>
+                        </dl>
+                        <br>
+                        <dl id="social-media">
+                            <dt>CONNECT US</dt>
+                            <dd>
+                                <ul class="social_footer_ul">
+                                    <br>
+                                    <a href="#"><img src="./assets/Group 73.svg" alt=""></a>
+                                    <a href="#"><img src="./assets/Group 74.svg" alt=""></a>
+                                    <a href="#"><img src="./assets/Group 75.svg" alt=""></a>
+                                </ul>
+                            </dd>
+                        </dl>
+                    </div>
+
+                    <div class=" col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="imp-links">
+                        <dl>
+                            <dt>IMPORTANT LINKS</dt>
+                            <br>
+                            <a href="#">
+                                <dd>Annual Report</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Anti Ragging Squad</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Mandatory Disclosure</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Ragging Free campus</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Eligibility Criteria</dd>
+                            </a>
+                            <a href="#">
+                                <dd>Admission Process</dd>
+                            </a>
+                            <a href="#">
+                                <dd>IT Policy</dd>
+                            </a>
+                            <a href="#">
+                                <dd>NAAC</dd>
+                            </a>
+                        </dl>
+                    </div>
+
+                    <div class="col-8 col-md-5 col-xl-2 mt-5 mt-xl-0" id="quick-links">
+                        <dl>
+                            <dt>QUICK LINKS</dt>
+                            <br>
+                            <a href="#">
+                                <dd>NAAC Links</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.aicte-india.org/</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.rtmnuresults.org/</dd>
+                            </a>
+                            <a href="#">
+                                <dd> www.dtemaharashtra.gov.in</dd>
+                            </a>
+                        </dl>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <section id="copyright-text">
+            <span><span class="far fa-copyright"></span> Design & Develop by YUVA Foundation 2021. All rights reserved.
+            </span>
+        </section>
+
+        <!-- bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+
+        <!-- owl carousel -->
+
+        <script src="./js/Jquery-3.5.1.min.js"></script>
+
+        <script src="./js/owl.carousel.min.js"></script>
+
+        <script src="./js/dept.js"></script>
+        <script src="js/about.js"></script>
+        <script src="./js/home.js"></script>
+        <script src="./js/chat.js"></script>
+        <script src="./js/app.js"></script>
+
+</body>
+
+</html>
