@@ -163,6 +163,17 @@ header img {
 /* Header section */
 
 /*Hero-section*/
+
+.home-button{
+  border: none; 
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  color: white; 
+  background-color: orangered;
+}
+.home-title{
+  margin-bottom: 6rem;
+}
 #hero-section {
   height: 84.6vh;
   position: relative;
