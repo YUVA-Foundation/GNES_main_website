@@ -35,6 +35,24 @@ section {
   margin-bottom: 2rem;
 }
 
+.nav-logo{
+  height: 3rem;
+}
+.l-nav{
+  visibility: hidden;
+}
+
+.navbar-collapse{
+  margin-left: -7rem;
+}
+@media screen and (max-width: 1024px) {
+  .l-nav{
+    visibility: visible;
+  }
+  .navbar-collapse{
+    margin-left: 0rem;
+  }
+}
 /* Global styling ends */
 
 /* ----------------------------------------------HOME CSS-------------------------------------------- */
